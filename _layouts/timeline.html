@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+
+    <section class="page__content" itemprop="text">
+      {{ content }}
+
+{% for collection in site.collections %}
+    <section>
+        <h1><a href="{{ collection.directory }}">{{ collection.title }}</a></h1>
+        Label: {{ collection.label }}
+    </section>
+{% endfor %}
+
+
+	  {% assign timelineByDate = site.timelines %}
+
+data-->>>>>>>>>>>>>>>>>>>>>>{{timelineByDate}}
+
+	  {% for query in timelineByDate %}
+
+sdf dfsdfd  {{qwery.name}}
+{% if qwery.header.teaser %}
+  {% capture teaser %}{{ qwery.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if qwery.id %}
+  {% assign title = qwery.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = qwery.title %}
+{% endif %}
+
+<div class="entries_layout__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if qwery.locale %} lang="{{ qwery.locale }}"{% endif %}>
+        <a href="{{ qwery.url | relative_url }}" rel="permalink">{{ qwery.title }}</a>
+    </h2>
+    {% if qwery.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ qwery.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+  </article>
+</div>
+
+      {% endfor %}
+
+    </section>
+  </article>
+</div>
