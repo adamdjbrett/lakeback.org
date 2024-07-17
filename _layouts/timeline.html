@@ -18,41 +18,8 @@ layout: default
     <section class="page__content" itemprop="text">
       {{ content }}
 
-{% for collection in site.collections %}
-    <section>
-        <h1><a href="{{ collection.directory }}">{{ collection.title }}</a></h1>
-        Label: {{ collection.label }}
-    </section>
-{% endfor %}
-
-
-	  {% assign timelineByDate = site.timelines %}
-
-data-->>>>>>>>>>>>>>>>>>>>>>{{timelineByDate}}
-
-	  {% for query in timelineByDate %}
-
-sdf dfsdfd  {{qwery.name}}
-{% if qwery.header.teaser %}
-  {% capture teaser %}{{ qwery.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
-
-{% if qwery.id %}
-  {% assign title = qwery.title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% else %}
-  {% assign title = qwery.title %}
-{% endif %}
-
-<div class="entries_layout__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if qwery.locale %} lang="{{ qwery.locale }}"{% endif %}>
-        <a href="{{ qwery.url | relative_url }}" rel="permalink">{{ qwery.title }}</a>
-    </h2>
-    {% if qwery.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ qwery.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
-  </article>
-</div>
-
+	  {% for item in site.timelines %}
+		{% include timeline-single.html %}
       {% endfor %}
 
     </section>

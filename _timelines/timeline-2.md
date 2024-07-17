@@ -8,6 +8,7 @@ header:
       url: "https://unsplash.com"
 excerpt: "Incididunt in dolor veniam commodo aliquip. Do elit ut nostrud dolore irure in culpa sit ipsum tempor. Cupidatat cupidatat Lorem cillum sunt. Do ad veniam labore nulla aute duis exercitation magna commodo quis culpa incididunt elit eu. Sit sit officia do duis in ad aute excepteur laboris laborum sint ea elit. Aliqua sunt tempor id sit excepteur esse eiusmod quis sit."
 icon: "/assets/images//mm-customizable-feature.png"
+icon_text: "9000 BCE - 1918 CE"
 date: 2017-11-28
 last_modified_at: 2018-03-20T16:00:52-04:00
 ---

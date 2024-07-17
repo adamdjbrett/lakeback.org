@@ -5,39 +5,22 @@ search: false
 
 @charset "utf-8";
 
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes"; // main partials
 
 // creating a light and a dark theme on html level
 html, html[data-theme="light"] {
-	--background-color: {$background-color};
-	--text-color: {$text-color};
-	--primary-color: {$primary-color};
-	--border-color: {$border-color};
-	--code-background-color: {$code-background-color};
-	--code-background-color-dark: {$code-background-color-dark};
-	--form-background-color: {$form-background-color};
-	--footer-background-color: {$footer-background-color};
-	--link-color: {$link-color};
-	--link-color-hover: {$link-color-hover};
-	--link-color-visited: {$link-color-visited};
-	--masthead-link-color: {$masthead-link-color};
-	--masthead-link-color-hover: {$masthead-link-color-hover};
-	--navicon-link-color-hover: {$navicon-link-color-hover};
+	--background-color: #{$background-color};
+	--text-color: #{$text-color};
+	--primary-color: #{$primary-color};
+	--gray: #{$gray};
+	--footer-background-color: #{$footer-background-color};
 }
 
 html[data-theme="dark"] {
-	--background-color: {#252a34 !default};
-	--text-color: {#eaeaea !default};
-	--primary-color: {$primary-color};
-	--border-color: {$border-color};
-	--code-background-color: {$code-background-color};
-	--code-background-color-dark: {$code-background-color-dark};
-	--form-background-color: {$form-background-color};
-	--footer-background-color: {$footer-background-color};
-	--link-color: {$link-color};
-	--link-color-hover: {$link-color-hover};
-	--link-color-visited: {$link-color-visited};
-	--masthead-link-color: {$masthead-link-color};
-	--masthead-link-color-hover: {$masthead-link-color-hover};
-	--navicon-link-color-hover: {$navicon-link-color-hover};
+	--background-color: #{$d-background-color};
+	--text-color: #{$d-text-color};
+	--primary-color: #{$d-primary-color};
+    --gray: #{$d-gray};
+	--footer-background-color: #{$d-footer-background-color};
 }

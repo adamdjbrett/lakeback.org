@@ -195,7 +195,7 @@ $text-alignments: left, right, start, end, center, justify;
   .fab,
   .far,
   .fal {
-    color: $text-color;
+    color: var(--text-color);
   }
 
   @each $color, $icons in (
@@ -238,7 +238,7 @@ $text-alignments: left, right, start, end, center, justify;
   position: relative;
   width: $navicon-width;
   height: $navicon-height;
-  background: $primary-color;
+  background: var(--primary-color);
   margin: auto;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -250,7 +250,7 @@ $text-alignments: left, right, start, end, center, justify;
     inset-inline-start: 0;
     width: $navicon-width;
     height: $navicon-height;
-    background: $primary-color;
+    background: var(--primary-color);
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
@@ -436,7 +436,7 @@ $text-alignments: left, right, start, end, center, justify;
 }
 
 a.reversefootnote {
-  color: $gray;
+  color: var(--gray);
   text-decoration: none;
 
   &:hover {
