@@ -1,3 +1,39 @@
 /* ==========================================================================
    Timeline
    ========================================================================== */
+
+.list__item.timeline {
+    padding: 5% 0% 5% 0%;
+}
+
+.list__item.timeline-even {
+    border-bottom: 3px solid #354bb5;
+	border-left: 3px solid #354bb5;
+}
+
+.list__item.timeline-odd {
+    border-bottom: 3px solid #354bb5;
+	border-right: 3px solid #354bb5;
+}
+
+.list__item.timeline-even:last-child , .list__item.timeline-odd:last-child {
+    border-bottom: none;
+}
+
+.timeline article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 5% 5%;
+    padding: 5%;
+}
+
+div.item__right{
+	width: 49%;
+}
+
+div.item__left{
+	width: 49%;
+}
+
+

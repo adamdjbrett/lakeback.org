@@ -6,6 +6,7 @@ group :jekyll_plugins do
   gem "jekyll"
   gem "jemoji"
   gem "faraday-retry"
+  gem 'breakpoint', '~> 2.7.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

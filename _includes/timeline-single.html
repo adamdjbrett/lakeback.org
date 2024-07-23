@@ -10,8 +10,24 @@
   {% assign title = item.title %}
 {% endif %}
 
-<div class="{{ include.type | default: 'list' }}__item">
+{% if item.header.image_description %}
+  {% assign image_description = item.header.image_description %}
+{% else %}
+  {% assign image_description = item.title %}
+{% endif %}
+
+{% for item in site.timelines %}
+		{% assign mod = forloop.index | modulo: 2 %}
+		{% if mod == 1 %}
+
+<div class="{{ include.type | default: 'list' }}__item timeline timeline-even">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if item.locale %} lang="{{ item.locale }}"{% endif %}>
+
+	<div class="item__right">
+	{% if item.header.image %}
+		<img src="{{ item.header.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image">
+	{% endif %}
+
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src="{{ teaser | relative_url }}" alt="">
@@ -24,7 +40,50 @@
         <a href="{{ item.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    {% include page__meta.html type=include.type %}
     {% if item.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ item.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+	</div>
+
+	<div class="item__left">
+	{% if item.icon %}
+		<img src="{{ item.icon | relative_url }}" alt="{{ item.icon_text }}" class="page__hero-image">
+		<p>{{ item.icon_text }}</p>
+	{% endif %}
+	</div>
   </article>
 </div>
+{% else %}
+
+<div class="{{ include.type | default: 'list' }}__item timeline timeline-odd">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if item.locale %} lang="{{ item.locale }}"{% endif %}>
+
+	<div class="item__right">
+	{% if item.header.image %}
+		<img src="{{ item.header.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image">
+	{% endif %}
+
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src="{{ teaser | relative_url }}" alt="">
+      </div>
+    {% endif %}
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      {% if item.link %}
+        <a href="{{ item.link }}">{{ title }}</a> <a href="{{ item.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ item.url | relative_url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h2>
+    {% if item.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ item.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+	</div>
+
+	<div class="item__left">
+	{% if item.icon %}
+		<img src="{{ item.icon | relative_url }}" alt="{{ item.icon_text }}" class="page__hero-image">
+		<p>{{ item.icon_text }}</p>
+	{% endif %}
+	</div>
+  </article>
+</div>
+
+{% endif %}
+{% endfor %}

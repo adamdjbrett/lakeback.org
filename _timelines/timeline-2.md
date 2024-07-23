@@ -1,11 +1,7 @@
 ---
 title: "Layout: Header Image Overlay 2"
 header:
-  overlay_image: /assets/images/unsplash-image-1.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-  actions:
-    - label: "Learn more"
-      url: "https://unsplash.com"
+  image: /assets/images/unsplash-image-1.jpg
 excerpt: "Incididunt in dolor veniam commodo aliquip. Do elit ut nostrud dolore irure in culpa sit ipsum tempor. Cupidatat cupidatat Lorem cillum sunt. Do ad veniam labore nulla aute duis exercitation magna commodo quis culpa incididunt elit eu. Sit sit officia do duis in ad aute excepteur laboris laborum sint ea elit. Aliqua sunt tempor id sit excepteur esse eiusmod quis sit."
 icon: "/assets/images//mm-customizable-feature.png"
 icon_text: "9000 BCE - 1918 CE"
