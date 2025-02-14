@@ -1,0 +1,23 @@
+<div class="container" aria-label="Time Line Section List">
+<div class="row">
+<div class="col-12">
+{% for time in collections.timelines %}
+<div class="custom-article">
+<a href="{{time.url}}" title="{{time.data.title}}" class="p-3 non">
+<div class="row p-3 timeline bg-body-tertiary">
+<div class="col-md-7">
+<img class="img-fluid img_timeline mb-3" src="{{time.data.image}}"/>
+<h3>{{time.data.title}}</h3>
+<p class="norm">{{time.data.description}}</p>
+</div>
+<div class="col-md-5">
+<img class="img-fluid mb-3" src="{{time.data.section.image}}"/>
+<p class="small norm">{{time.data.section.info}}</p>
+</div>
+</div>
+</a>
+</div>
+{% endfor %}
+</div>
+</div>
+</div>

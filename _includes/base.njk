@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+<head>
+{% include "partials/seo.njk" %}
+</head>
+<body>
+{% set css %} {% include "style/main.css" %} {% endset %}
+<style>{{ css | cssmin | safe }}</style>
+<a href="#main-content" class="skip-to-content">Skip to content</a>
+{% include "partials/navbar.njk" %}
+<main id="main-content">
+{{ content | safe }}
+</main>
+{% include "partials/footer.njk" %}
+</body>
+</html>

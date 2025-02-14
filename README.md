@@ -1,17 +1,37 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2919169f-daeb-4fcc-9a7c-ab71da318e03/deploy-status)](https://app.netlify.com/sites/lakeback/deploys)
+# LakeBack on 11ty
 
-## netlify url
-[lakeback.netlify.app](https://lakeback.netlify.app)
+A new version of lakeback website | Project by [Adam Dj Brett](https://www.adamdjbrett.com)
 
-# lakeback.org
-Restore Our Sacred Lake
+Features: 
++ 11ty New Version V.3
++ Minimalist Concept
++ Dark Mode
++ Light Mode
++ Heading Anchor
++ Skip to Content
++ Multi Author
++ Consitent Background Cover
++ Home Page Design
++ Static Page Design
++ Blog List Design
++ Blog Pagination
++ Timeline Design
++ Time Line List
++ Time Line Pagination
++ Multi Author
++ Author Profile Page
++ Posts List by Author
++ Tag List Design
++ Tags Page Design
++ Pagefind
++ Table of Content
++ Header Anchor
++ FAQ Design
++ Auto SEO injection Script
++ Grid Posts Mode
++ List Posts Mode
 
-## Remove everything
-this is just to get the site working on Netlify.
+### Need help or have project ?? Contact Me
 
-## Contributors
-<a href="https://github.com/adamdjbrett/lakeback.org/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=adamdjbrett/lakeback.org" />
-</a>
-
-Made with [contrib.rocks](https://contrib.rocks).
++ [www.adamdjbrett.com](https://www.adamdjbrett.com)
++ info@adamdjbrett.com

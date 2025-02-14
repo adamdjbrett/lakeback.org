@@ -1,0 +1,11 @@
+<div class="col-md-10 mx-auto p-3 justify-content-center text-center" aria-label="Author Profile">
+{% if authors %}<p> Publish By 
+{% for authorKey in authors %}{% set author = authors | getAuthor(authorKey) %}
+{% if author %}
+<span class="ms-2 me-2"><img class="img_profile me-1" width="100%" height="100%" alt="{{ author.name }}" loading="lazy"
+src="{{ author.image }}"/>
+<a href="/authors/{{ author.key }}/">{{ author.name }}</a></span>{% if not loop.last %} {% endif %}
+{% endif %}{% endfor %}{% endif %}
+<span>on <time class="postlist-date" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("dd LLLL yyyy") }}</time></p>
+</p>
+</div>

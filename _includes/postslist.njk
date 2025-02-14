@@ -1,0 +1,18 @@
+<div class="row">
+{% for post in postslist | reverse %}
+<div class="col-md-6 p-3">
+<a title="{{post.data.title}}" href="{{ post.url }}"><img class="img-fluid mb-3" width="100%" height="100%" alt="{{post.data.title}}" src="{{post.data.image}}"/></a>
+<p><a href="{{ post.url }}" class="non">{{ post.data.title }}</a></p>
+<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>
+{% if author %}
+{% set myAuthors = collections.data.authors | getAuthors(author) %}
+<p>
+Written by
+{% for theAuthor in myAuthors %}
+<a href="/authors/{{ theAuthor.key }}">{{ theAuthor.name }}</a>{% if not loop.last %}, {% endif %}
+{% endfor %}
+</p>
+{% endif %}
+</div>
+{% endfor %}
+</div>

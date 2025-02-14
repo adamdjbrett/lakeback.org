@@ -1,0 +1,27 @@
+<div class="tab-pane fade" id="pills-list" role="tabpanel" aria-labelledby="pills-list-tab" tabindex="0">
+{% for post in pagination.items %}
+<div class="row mb-3">
+<div class="col-md-6 shadow" style=" background-image:url('{{post.data.image or metadata.image}}');
+background-size: cover;background-position: center;"></div>
+<div class="col-md-6 p-3 p-md-5">
+<h3><a href="{{post.url}}" class="non">{{post.data.title}}</a></h3>
+<p>{{post.data.description}}</p>
+{% if post.data.authors %}<p>by 
+{% for authorKey in post.data.authors %}{% set author = authors | getAuthor(authorKey) %}
+{% if author %}
+<span class="ms-2 me-2"><img class="img_profile me-1" width="100%" height="100%" alt="{{ author.name }}" loading="lazy"
+src="{{ author.image }}"/>
+<a href="/authors/{{ author.key }}/">{{ author.name }}</a></span>{% if not loop.last %} {% endif %}
+{% endif %}{% endfor %}</p>{% endif %}
+</div>
+</div>
+{% endfor %}
+<div class="row mt-5 mb-3">
+<div class="col-md-6">
+{% if pagination.href.previous %}<a class="btn btn-dark text-uppercase col-12 p-3" href="{{ pagination.href.previous }}">← Previous</a>{% endif %}
+</div>
+<div class="col-md-6 text-end">
+{% if pagination.href.next %}<a class="btn btn-dark text-uppercase col-12 p-3" href="{{ pagination.href.next }}">Next →</a>{% endif %}
+</div>
+</div>
+</div>
