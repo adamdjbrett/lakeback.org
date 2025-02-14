@@ -1,0 +1,12 @@
+<section class="container" aria-label="Time Line Main Aricle">
+<div class="row mt-5 mb-3">
+<div class="col-md-10 p-3 p-md-5">
+{% if show_table_of_content %}
+<h3>{{metadata.table_of_content_title}}</h3>
+<div class="toci">
+{{ content | toc| safe }}
+</div>{% endif %}
+{{content|safe}}
+</div>
+</div>
+</section>

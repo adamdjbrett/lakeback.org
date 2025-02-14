@@ -1,0 +1,18 @@
+---
+layout: base.njk
+---
+{% include "partials/header.njk" %}
+<main class="container" aria-label="Main Article Content">
+<div class="row mt-5 mb-5">
+<div class="col-md-10 mx-auto p-3 p-md-5">
+{% if show_table_of_content %}
+<div class="p-3 p-md-5 mb-5 bg-body-tertiary">
+<h3>{{metadata.table_of_content_title}}</h3>
+<div class="toci">
+{{ content | toc| safe }}
+</div></div>{% endif %}
+{{content|safe}}
+{% if date %}<p><time class="postlist-date" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("dd LLLL yyyy") }}</time></p>{% endif %}
+</div>
+</div>
+</main>

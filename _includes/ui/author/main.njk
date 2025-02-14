@@ -1,0 +1,17 @@
+<main class="container aria-label="Main Article">
+<div class="row mt-5 mb-5">
+<div class="col-md-6 p-3 p-md-5">
+<h3>{{author.intro.title}}</h3>
+<p>{{author.intro.text}}</p>
+<p>{% for s in author.social %}<a href="{{s.url}}" title="{{s.title}}" class="p-1"><i class="{{s.icon}}"></i></a>{% endfor %}</p>
+</div>
+<div class="col-md-4 offset-md-2 p-3 p-md-5">
+<img class="img-fluid p-3 bg-body-tertiary" alt="{{author.name}}" width="100%" height="100%"
+src="{{author.image}}">
+</div>
+<div class="col-md-11 mx-auto p-3 p-md-5">
+<h3><a href="{{page.url}}" class="non">{{author.about.title}}</a></h3>
+{% for a in author.about.text %}<p>{{a.item}}</p>{% endfor %}
+</div>
+</div>
+</main>

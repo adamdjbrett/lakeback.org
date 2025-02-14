@@ -1,0 +1,13 @@
+---
+layout: base.njk
+pagination:
+  data: collections.authors
+  size: 1
+  alias: author
+permalink: "authors/{{ author.key }}/"
+eleventyComputed:
+  title: "{{ author.name }}"
+---
+{% include "ui/author/header.njk" %}
+{% include "ui/author/main.njk" %}
+{% include "ui/author/article.njk" %}
