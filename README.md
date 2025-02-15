@@ -30,6 +30,7 @@ Features:
 + Auto SEO injection Script
 + Grid Posts Mode
 + List Posts Mode
++ Headless CMS
 
 ### Need help or have project ?? Contact Me
 

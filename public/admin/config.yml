@@ -1,0 +1,245 @@
+# local_backend: true
+backend:
+  name: git-gateway
+  repo: adamdjbrett/lakeback.org
+  branch: main 
+media_folder: 'public/img'
+public_folder: '/img'
+
+
+# publish_mode: editorial_workflow
+
+collections:
+  - label: "Home Page"
+    name: "home"
+    files:
+      - label: "Home"
+        name: "home"
+        file: "content/index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "Information", name: "information", widget: "text"}
+          - label: "Info"
+            name: "info"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Text", name: "text", widget: "text"}
+
+
+  - name: "pages"
+    label: "Static Page"
+    folder: "content/page"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Show Table of Content", name: "show_table_of_content", widget: "boolean", default: false}
+      - {label: "Permalink", name: "permalink", widget: "string", pattern: ['^\/[a-zA-Z0-9-_\/]+\/$', "Must start and end with a slash"]}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "faqs"
+    label: "FAQ Pages"
+    files:
+      - label: "FAQ"
+        name: "faq"
+        file: "content/special/faq.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Image", name: "image", widget: "image" ,required: false}
+          - {label: "Permalink", name: "permalink", widget: "string", pattern: ['^\/[a-zA-Z0-9-_\/]+\/$', "Must start and end with a slash"]}
+          - label: "Active FAQ"
+            name: "faq_active"
+            widget: "object"
+            fields:
+              - {label: "Question", name: "a", widget: "string"}
+              - {label: "Answer", name: "q", widget: "text"}
+          - label: "FAQ Items"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {label: "Sort Order", name: "sort", widget: "number", value_type: "int"}
+              - {label: "Question", name: "a", widget: "string"}
+              - {label: "Answer", name: "q", widget: "text"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "blogs"
+    label: "Blog List"
+    files:
+      - label: "Blog List Page"
+        name: "blog"
+        file: "content/special/blog.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Image", name: "image", widget: "image" ,required: false}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "blog.njk"}
+          - label: "Pagination"
+            name: "pagination"
+            widget: "object"
+            fields:
+              - {label: "Data", name: "data", widget: "hidden", default: "collections.posts"}
+              - {label: "Size", name: "size", widget: "number", value_type: "int", min: 1}
+              - {label: "Reverse", name: "reverse", widget: "boolean"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "blog/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+
+  - name: "post"
+    label: "Blog Posts"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - label: "Authors"
+        name: "authors"
+        widget: "list"
+        field: {label: "Author", name: "author", widget: "string"}
+      - {label: "Featured Image", name: "image", widget: "image"}
+      - {label: "Show Table of Content", name: "show_table_of_content", widget: "boolean", default: false}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "timeline"
+    label: "Timeline"
+    folder: "content/timeline"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - label: "Section"
+        name: "section"
+        widget: "object"
+        fields:
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "Info", name: "info", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Show Table of Content", name: "show_table_of_content", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+#  - name: "author"
+#    label: "Authors"
+#    files:
+#      - label: "Author Lists"
+#        name: "authors"
+#        file: "_data/authors.yaml"
+#        widget: "list"
+#        fields:
+#            - {label: "Key", name: "key", widget: "string"}
+#            - {label: "Name", name: "name", widget: "string"}
+#            - {label: "Image", name: "image", widget: "image"}
+#            - {label: "Bio", name: "bio", widget: "text"}
+#            - {label: "Info", name: "info", widget: "text"}
+#            - {label: "Cover", name: "cover", widget: "image"}
+#            - label: "Intro"
+#              name: "intro"
+#              widget: "object"
+#              fields:
+#                - {label: "Title", name: "title", widget: "string"}
+#                - {label: "Text", name: "text", widget: "text"}
+#            - label: "About"
+#              name: "about"
+#              widget: "object"
+#              fields:
+#                - {label: "Title", name: "title", widget: "string"}
+#                - label: "Text"
+#                  name: "text"
+#                  widget: "list"
+#                  field: {label: "Item", name: "item", widget: "text"}
+#            - label: "Social"
+#              name: "social"
+#              widget: "list"
+#              fields:
+#                - {label: "Title", name: "title", widget: "string"}
+#                - {label: "Icon", name: "icon", widget: "string"}
+#                - {label: "URL", name: "url", widget: "string"}
+
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - label: "Metadata"
+        name: "metadata"
+        file: "_data/metadata.yaml"
+        fields:
+          - {label: "Site Title", name: "title", widget: "string"}
+          - {label: "Site Description", name: "description", widget: "text"}
+          - {label: "Language", name: "language", widget: "string"}
+          - {label: "Locale", name: "locale", widget: "string"}
+          - {label: "Site Image", name: "image", widget: "image"}
+          - {label: "Favicon", name: "favicon", widget: "image"}
+          - {label: "Site URL", name: "url", widget: "string"}
+          - {label: "Search Text", name: "search", widget: "string"}
+          - {label: "Table of Contents Title", name: "table_of_content_title", widget: "string"}
+          - {label: "Formspree ID", name: "formspree_id", widget: "string", required: false}
+          - label: "Social Media"
+            name: "metasocial"
+            widget: "list"
+            fields:
+              - {label: "Platform", name: "platform", widget: "select", options: ["facebook", "twitteruser", "twitter"]}
+              - {label: "URL/Username", name: "value", widget: "string"}
+          - label: "Navigation Bar"
+            name: "navbar"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - label: "Navigation List"
+                name: "nav_list"
+                widget: "list"
+                fields:
+                  - {label: "Label", name: "nav", widget: "string"}
+                  - {label: "URL", name: "url", widget: "string"}
+              - label: "Dropdown Menu"
+                name: "nav_dropdown"
+                widget: "object"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - label: "Items"
+                    name: "item"
+                    widget: "list"
+                    fields:
+                      - {label: "Label", name: "nav", widget: "string"}
+                      - {label: "URL", name: "url", widget: "string"}
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - label: "Items"
+                name: "item"
+                widget: "list"
+                fields:
+                  - {label: "Label", name: "nav", widget: "string"}
+                  - {label: "URL", name: "url", widget: "string"}
+          - label: "Copyright"
+            name: "copyrights"
+            widget: "object"
+            fields:
+              - {label: "Text 1", name: "text1", widget: "string"}
+              - {label: "Text 2", name: "text2", widget: "string"}
+              - {label: "Text 2 URL", name: "text2_url", widget: "string"}
+          - label: "Author"
+            name: "author"
+            widget: "object"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Email", name: "email", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
+
+# Preview Templates
+preview_styles: ["/admin/main.css","/admin/bs.css"]
+
+# Editor Components
+editor:
+  preview: true
