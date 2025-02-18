@@ -27,6 +27,7 @@
 <meta name="locale" content="{{metadata.locale}}">
 <meta property="og:locale" content="{{metadata.locale}}">
 <meta name="generator" content="{{ eleventy.generator }}"> 
+<script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"{{metadata.description}}","headline":"{{metadata.title}} - {{metadata.description}}","name":"{{metadata.title}}","url":"{{metadata.url}}{{page.url}}"}</script>
 {%- css %}{% include "public/css/bs.css" %}{% endcss %}<style>{% getBundle "css" %}</style>
 {%- js %}{% include "node_modules/@zachleat/heading-anchors/heading-anchors.js" %}{% endjs %}
