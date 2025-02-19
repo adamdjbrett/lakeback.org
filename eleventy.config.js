@@ -34,9 +34,9 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addFilter("cssmin", function (code) {
 		return new CleanCSS({}).minify(code).styles;
 	});
-//    eleventyConfig.on('eleventy.after', () => {
-//		execSync(`npx pagefind --site _site --glob \"**/*.html\"`, { encoding: 'utf-8' })
-//	  })
+    eleventyConfig.on('eleventy.after', () => {
+		execSync(`npx pagefind --site _site --glob \"**/*.html\"`, { encoding: 'utf-8' })
+	  })
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(HtmlBasePlugin);
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
