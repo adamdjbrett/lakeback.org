@@ -38,7 +38,7 @@ font-family: "Lato", serif;
 .hero {
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 120vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -213,7 +213,7 @@ a {color:inherit;font-weight:700;}
 
 /* Mobile */
 @media screen and (max-width: 480px) {
-.header_title {padding-top:60px;}
+.header_title {padding-top:130px;}
 .desktop {display: none;}
 html,body,.lead {
 font-size: 18px;

@@ -26,6 +26,8 @@ collections:
             widget: "object"
             fields:
               - {label: "Title", name: "title", widget: "string"}
+              - {label: "Button", name: "button", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
               - {label: "Image", name: "image", widget: "image"}
               - {label: "Text", name: "text", widget: "text"}
 
@@ -193,6 +195,8 @@ collections:
             widget: "object"
             fields:
               - {label: "Title", name: "title", widget: "string"}
+              - {label: "Sub Title", name: "sub_title", widget: "string"}
+              - {label: "Icon", name: "icon", widget: "image"}
               - label: "Navigation List"
                 name: "nav_list"
                 widget: "list"

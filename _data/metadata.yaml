@@ -16,7 +16,9 @@ metasocial:
 
 navbar: 
  #logo: /logos.png
- title: "Return Maple Bay ~ Restore Our Sacred Onondaga Lake"
+ title: "Return Maple Bay"
+ sub_title: "Restore Our Sacred Onondaga Lake"
+ logo: "/logos.png"
  #subtitle: "Heal the Reciprocal Relationship Between the Lake and Onondaga Nation #Lakeback" // add a subtitle
  nav_list:
   - nav: Home
