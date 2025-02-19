@@ -1,32 +1,13 @@
 ---
 title: About
-description: Adam DJ Brett is a multifaceted academic and professional with expertise in religious studies, indigenous issues, and web development.
+description: "Return Maple Bay ~ Restore Our Sacred Onondaga Lake"
+image: "/img/onondaga-lake-east-shoreline.jpg"
 permalink: /about/
 ---
-Education and Academic Background:
-- Earned a Ph.D. in Religion from Syracuse University in 2022
-- Holds additional degrees including an M.Phil. from Syracuse University, and a Th.M. and M.T.S. from Brite Divinity School at Texas Christian University
+American Indian Law Alliance (AILA) is a 34-year-old Indigenous-led organization founded and operated according to the original instructions provided to the Haudenosaunee people, including the full support of the Onondaga Council of Chiefs and the Haudenosaunee Confederacy. These instructions guide us to acknowledge and honor our interdependence with all beings, to be mindful of the seven generations ahead of us, and to share the abundance Mother Earth provides with each other and the beings who share our ecosystems. AILA is also grounded in the wisdom of the Haudenosaunee Confederacy and Onondaga ancestors who have fought to protect our people's sovereignty for thousands of years, and which AILA continues today through diplomacy and advocacy from the county government to the highest levels of international governance. These ancestors understood that culture, place, and well-being are inextricably bound together and found wisdom in actions that honored those intersections. AILA upholds this tradition today in our work to honor our heritage by reclaiming and restoring our sacred Onondaga Lake and inviting all who reside on our territory to live by the literal law of the land.
 
-Professional Roles:
-- Operations Manager and International Research Associate with the American Indian Law Alliance (AILA)
-- Grant and event coordinator for the Doctrine of Discovery Project at Syracuse University
-- Part-Time Instructor at Syracuse University's College of Arts & Sciences
-- Freelance web developer with over a decade of experience
+Over 1,000 years ago, on the shores of the pristine Onondaga Lake, our Peacemaker brought the democratic ideals and practices that created a peaceful Haudenosaunee Confederacy from what was once five warring Nations. Our system for governance and shared abundance is the longest-running democracy on Turtle Island and inspired the US government's bicameral structure and the U.S. women's movement for equal rights. The lake is also the birthplace of lacrosse, the Creator's Game, which began among our people. It is a deeply sacred place to the Haudenosaunee and is of historical importance to U.S. history. The lake is also critically important to eagles and wildlife on our territory, whose needs have long been overlooked by colonial powers who refuse to recognize and honor interdependence.
 
-Research Interests:
-- American religion and religious history, with a focus on Protestant Fundamentalism's influence on media, culture, business, and politics in the early 20th century
-- Indigenous studies, particularly the Doctrine of Discovery and its impact on U.S. property laws affecting Indigenous nations
-- Religion, media, and culture
+The Onondaga were made the central fire, the capital of the Confederacy, by the Peacemaker. Today the Onondaga is the only Indigenous nation in the United States with sovereignty --- our land is not part of the United States or in a trust held by the government, but its entirely under our control. We travel on our own Haudenosaunee passports, the only Indigenous Nation in all the US to do so. Our status and intact matrilineal governance has provided us a unique leadership role among Indigenous Peoples on Turtle Island. We've been at the forefront of the global struggle for Indigenous sovereignty. AILA was formed by Onondaga leaders as an independent NGO to navigate colonial legal systems to our ongoing struggle for sovereignty. AILA is independent of the Nation's governance and maintains a Board who can support the mission to advance Indigenous sovereignty for all, not just the Onondaga. 
 
-Teaching Experience:
-- Has taught courses on various religious topics, including Religion and Science Fiction, Religion and Sports, and Introduction to the Study of Religion
-
-Publications and Projects:
-- Co-author of academic articles on topics related to religion and indigenous issues
-- Involved in digital humanities projects, including the Doctrine of Christian Discovery Podcast
-
-Skills:
-- Web development (HTML/CSS, Jekyll, WordPress, etc.)
-- Digital scholarship and social media management
-
-Adam DJ Brett combines his academic expertise in religious studies with practical skills in web development and project management, focusing on issues at the intersection of religion, culture, and indigenous rights.
+Our history is rarely told, let alone honored. Instead, colonial powers have sought to minimize and diminish these truths to justify their violence and greed. Industry polluted the lake without consequence throughout the 19th and 20th centuries, and today the sacred and essential waters of Onondaga Lake are a superfund site. Our plan is to protect the lake from further pollution and development by building a strong collaborative of institutions dedicated to  preserving and protecting the lake, with an emphasis on  Maple Bay, a portion of the lake.

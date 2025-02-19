@@ -1,6 +1,6 @@
 ---
 title: Blog Post
-description: Update from blog post article
+description: Updates on Restoring Maple Bay
 layout: blog.njk
 pagination:
   data: collections.posts

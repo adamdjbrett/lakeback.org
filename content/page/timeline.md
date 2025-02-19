@@ -1,9 +1,9 @@
 ---
 layout: timeline.njk
-title: Time line
-description: A timeline description goes to here , change on page - timeline.md files.
+title: Timeline
+description: The Past, Present and Future of Onondaga Lake
+image: "/img/onondaga-lake-east-shoreline.jpg"
 permalink: /timeline/
 ---
-### Elosipal Delanjaro Esquis Laspamsa
-
-Incididunt in dolor veniam commodo aliquip. Do elit ut nostrud dolore irure in culpa sit ipsum tempor. Cupidatat cupidatat Lorem cillum sunt. Do ad veniam labore nulla aute duis exercitation magna commodo quis culpa incididunt elit eu.
+### Onondaga Lake is a Relative not a Resource
+American Indian Law Alliance Founder Tonya Gonnella Frichner (Onondaga Nation, Snipe Clan) reminds us that Mother Earth is a [relative not a resource](https://ictnews.org/archive/tonya-gonnella-frichner-mother-earth-is-a-relative-not-a-resource). Tragically because of the Doctrine of Discovery, Onondaga Lake, the sacred lake of the Haudenosaunee Confederacy has been treated as a resource for extraction and pollution not a relative. This time provides some snapshots of important moments in the history of Onondaga Lake.
