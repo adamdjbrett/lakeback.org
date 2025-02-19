@@ -44,30 +44,30 @@ navbar:
      url: /contact/
 
 faq_active: 
- q: Who is Adam DJ Brett?
- a: Adam DJ Brett is a scholar, educator, and digital humanist. He is currently a Postdoctoral Fellow in Digital Humanities at Hamilton College. His research focuses on religion, technology, and culture with particular interests in digital religion, artificial intelligence, and critical code studies.
+ q: "What does #Lakeback mean?"
+ a: "Coming soon..."
 faq: 
  - sort: 1
-   q: "What are Adam's main research interests?"
-   a: "Adam's primary research interests include Digital religion, Artificial intelligence and ethics, Critical code studies, Digital humanities methodologies, American religious history"
+   q: "What does a Caretaking Relationship for Onondaga Nation look like and mean?" 
+   a: "Coming soon..." 
  - sort: 2
-   q: "What is Adam's educational background?"
-   a: "Adam holds a Ph.D. in Religion from Syracuse University. He also has degrees in Religious Studies and Philosophy from the University of Waterloo."
+   q: "Why Maple Bay?"
+   a: "Coming soon..."
  - sort: 3
-   q: "Where can I find Adam's publications?"
-   a: "You can find a list of Adam's publications on the Publications page of this website. This includes journal articles, book chapters, and digital projects."
+   q: "Another Question"
+   a: "Coming soon..."
  - sort: 4
-   q: "Does Adam teach any courses?"
-   a: "Yes, Adam teaches courses related to digital humanities, religion, and technology. You can find information about his current and past courses on the Teaching page. - https://adamdjbrett.com/teaching/"
+   q: "Another Question"
+   a: "Coming soon..."
  - sort: 5
-   q: "Is Adam available for speaking engagements or consulting?"
-   a: "Adam is open to speaking engagements and consulting opportunities related to his areas of expertise. Please use the Contact form to inquire about availability and topics."
+   q: "Another Question"
+   a: "Coming soon..."
  - sort: 6
-   q: "What digital projects is Adam involved with?"
-   a: "Adam is involved in several digital humanities projects, including The American Religious Sounds Project, Mapping Religious Diversity in the US, Critical Code Studies Working Group, You can find more details about these projects on the Projects page."
+   q: "Another Question"
+   a: "Coming soon..."
  - sort: 7
-   q: "How can I learn more about Adam's work in digital humanities?"
-   a: "The Digital Humanities section of this website provides an overview of Adam's approach to DH and links to relevant projects and publications."
+   q: "Another Question"
+   a: "Coming soon..."
 
 footer:
  title: "LAKEBACK.ORG"
