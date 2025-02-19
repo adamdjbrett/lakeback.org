@@ -15,3 +15,7 @@ permalink: /resources/
 
 ## Resources about Onondaga Lake
 - [Historical Ecology - Catherine Landis](https://onondagalakehistoricalecology.weebly.com/)
+
+## Books
+- [Basic call to Conciousness](https://www.bookpubco.com/native-voices-books/p/basic-call-to-consciousness)
+- [Voices of Indigenous Peoples: Native People Address the United Nations](https://indiancountrybooks.com/shop/voice-of-indigenous-peoples-native-people-address-the-united-nations/ )
