@@ -1,3 +1,30 @@
+- key: aila
+  name: "American Indian Law Alliance"
+  image: "/img/aila-logo.png"
+  cover: "/img/onondaga-lake-east-shoreline.jpg"
+  bio: "American Indian Law Alliance"
+  info: "American Indian Law Alliance (AILA) is a non-profit organization that works with Indigenous Nations and peoples in the Americas to protect their sovereignty, human rights, and Mother Earth."
+  intro: 
+   title: "Intro"
+   text: "American Indian Law Alliance: An NGO in consultative status with the United Nations Economic & Social Council (ECOSOC)"
+  about: 
+   title: About Us
+   text: 
+    - item: "The American Indian Law Alliance (AILA) was founded in 1989; it is an Indigenous, non-profit, non-partisan organization that works with Indigenous nations, communities, and organizations in our struggle for sovereignty, human rights, and social justice for our peoples."
+  social: 
+    - title: Follow AILA on Linkedin
+      icon: fab fa-linkedin
+      url: https://www.linkedin.com/company/american-indian-law-alliance/
+    - title: Follow AILA on Twitter
+      icon: fab fa-twitter
+      url: https://x.com/ailanyc
+    - title: Follow AILA on on Instagram
+      icon: fab fa-instagram
+      url: https://www.instagram.com/americanindianlawalliance/
+    - title: Follow AILA on on Facebook
+      icon: fab fa-facebook
+      url: https://www.facebook.com/americanindianlawalliance  
+
 - key: adamdjbrett
   name: "Adam DJ Brett"
   image: "https://avatars.githubusercontent.com/u/22662978?v=4"
