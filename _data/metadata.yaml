@@ -4,8 +4,8 @@ language: "en"
 locale: en_US
 image: 
 favicon: /logos.png
-url: "http://localhost:8080"
-#url: "https://lakeback.org"
+#url: "http://localhost:8080"
+url: "https://lakeback.org"
 search: "Search"
 table_of_content_title: On This Page
 formspree_id: 
@@ -21,6 +21,10 @@ navbar:
  nav_list:
   - nav: Home
     url: /
+  - nav: About
+    url: /about/
+  - nav: Search
+    url: /search/  
   - nav: Timeline
     url: /timeline/
  nav_dropdown:
@@ -40,6 +44,10 @@ navbar:
      url: /search/
    - nav: Contact
      url: /contact/
+   - nav: Coalition
+     url: /coalition/  
+   - nav: Resources
+     url: /resources/ 
 
 faq_active: 
  q: "What does #Lakeback mean?"
@@ -72,16 +80,15 @@ footer:
  item: 
   - nav: Home
     url: /
-  - nav: Timeline
-    url: /timeline/
   - nav: About
     url: /about/
-  - nav: Authors
-    url: /authors/
+  - nav: blog
+    url: /blog/  
   - nav: FAQ
     url: /faq/
   - nav: Contact
-    url: /contact/
+    url: /contact/  
+
 
 copyrights: 
  text1: A Project by The
