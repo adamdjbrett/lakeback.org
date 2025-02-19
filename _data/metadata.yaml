@@ -34,6 +34,8 @@ navbar:
      url: /authors/
    - nav: Blog
      url: /blog/
+   - nav: Gallery
+     url: /gallery/
    - nav: FAQ
      url: /faq/
    - nav: Search
