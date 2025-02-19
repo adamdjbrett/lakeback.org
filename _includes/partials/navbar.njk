@@ -1,7 +1,10 @@
 {% include "partials/icon.njk" %}
 <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
 <div class="container-fluid">
-<a class="navbar-brand" href="{{metadata.url}}">{{metadata.navbar.title}}</a>
+<a class="navbar-brand" href="{{metadata.url}}">
+<img class="img-fluid" alt="{{metadata.title}}" loading="eager" src="{{metadata.navbar.logo}}" width="60" height="60"/>
+{{metadata.navbar.title}}</a><br/>
+<small>{{metadata.navbar.sub_title}}</small>
 <button class="navbar-toggler btn btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 <i class="fas fa-bars"></i>
 </button>
