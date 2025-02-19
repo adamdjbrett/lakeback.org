@@ -1,20 +1,23 @@
-title: "Lakeback"
-description: "Lackeback.org by Adam Dj Brett"
+title: "Return Maple Bay ~ Restore Our Sacred Onondaga Lake"
+description: "Heal the Reciprocal Relationship Between the Lake and Onondaga Nation #Lakeback"
 language: "en"
 locale: en_US
-image: https://images.unsplash.com/photo-1493918767339-f968bf7bfd70?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjZ8fG1pbmltYWxpcyUyMHdoaXRlfGVufDB8MHwwfHx8MA%3D%3D
+image: 
 favicon: /logos.png
 url: "http://localhost:8080"
+#url: "https://lakeback.org"
 search: "Search"
 table_of_content_title: On This Page
 formspree_id: 
 metasocial: 
- - facebook: "https://www.facebook.com/"
- - twitteruser: "@username"
- - twitter: "https://x.com/user"
+ - facebook: "https://www.facebook.com/americanindianlawalliance"
+ - twitteruser: "@AILANYC"
+ - twitter: "https://x.com/ailanyc"
 
 navbar: 
- title: Lakeback
+ #logo: /logos.png
+ title: "Return Maple Bay ~ Restore Our Sacred Onondaga Lake"
+ #subtitle: "Heal the Reciprocal Relationship Between the Lake and Onondaga Nation #Lakeback" // add a subtitle
  nav_list:
   - nav: Home
     url: /
@@ -37,7 +40,7 @@ navbar:
      url: /contact/
 
 footer:
- title: Lakeback.org
+ title: "LAKEBACK.ORG"
  item: 
   - nav: Home
     url: /
@@ -53,12 +56,12 @@ footer:
     url: /contact/
 
 copyrights: 
- text1: Develop by
- text2: Adam Dj Brett
- text2_url: https://adamdjbrett.com
+ text1: A Project by The
+ text2: American Indian Law Alliance
+ text2_url: https://aila.ngo
 
 author: 
- name: "Adam DJ Brett"
- image: "https://avatars.githubusercontent.com/u/22662978?v=4"
- email: "info@adamdjbrett.com"
- url: "https://www.adamdjbrett.com"
+ name: "Betty Lyons"
+ image: "https://aila.ngo/wp-content/uploads/2020/06/Betty-Lyons-Headshot-1.jpg"
+ email: "aila@aila.ngo"
+ url: "https://www.aila.ngo"

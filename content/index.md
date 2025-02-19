@@ -1,16 +1,12 @@
 ---
 layout: start.njk
-
-title: "Adam DJ Brett"
-description: "Adam DJ Brett, a scholar of religion and media"
-image: "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fG1pbmltYWxpcyUyMHdoaXRlfGVufDB8MHwwfHx8MA%3D%3D"
-information: "Brett's work extends beyond historical analysis, addressing contemporary issues such as the Doctrine of Discovery and its impact on Indigenous peoples"
-
+title: "Return Maple Bay ~ Restore Our Sacred Onondaga Lake"
+description: "Heal the Reciprocal Relationship Between the Lake and Onondaga Nation #Lakeback"
+image: "/img/onondaga-lake-east-shoreline.jpg"
+information: "Onondaga Lake is the birthplace of democracy, lacrosse, the women's movement, and more. This lake is the ancestral home of the Onondaga Nation and the Haudenosaunee Confederacy. The United States agreed that the lake would always belong to the Onondaga Nation and the Haudenosaunee Confederacy with the 1794 Canandaigua treaty."
 info: 
- title: "Brett's academic interests span a diverse range of topics"
- image: "https://images.unsplash.com/photo-1554711425-9a33cad04681?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1pbmltYWxpc3xlbnwwfHwwfHx8MA%3D%3D"
- text: "including American religious history, Indigenous religions, and the interplay between religion and technology. His teaching experience covers courses such as 'Religion and Science Fiction' and 'Religion and Sports',reflecting his ability to connect religious studies with contemporary cultural phenomena"
+ title: "Water is Life"
+ image: "/img/onondaga-lake-south-shoreline-700.jpg"
+ text: "We aim to restore the reciprocal relationship of mutual care, amongst Onondaga Lake, all its inhabitants, and Onondaga Nation beginning with the return of Maple Bay."
+ #cta: "add a call to action button"
 ---
-### [Brett's academic interests span a diverse range of topics](/)
-
-including American religious history, Indigenous religions, and the interplay between religion and technology. His teaching experience covers courses such as 'Religion and Science Fiction' and 'Religion and Sports',reflecting his ability to connect religious studies with contemporary cultural phenomena.
