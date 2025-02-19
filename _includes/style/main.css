@@ -210,6 +210,8 @@ a {color:inherit;font-weight:700;}
   transform: translateX(5px);
 }
 
+.btn-cta {background-color:#299999;color:white;}
+.btn-cta:hover {background-color:#197F7F;color:white;}
 
 /* Mobile */
 @media screen and (max-width: 480px) {
