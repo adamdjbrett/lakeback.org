@@ -15,11 +15,9 @@ metasocial:
  - twitter: "https://x.com/ailanyc"
 
 navbar: 
- #logo: /logos.png
  title: "Return Maple Bay"
  sub_title: "Restore Our Sacred Onondaga Lake"
- logo: "/logos.png"
- #subtitle: "Heal the Reciprocal Relationship Between the Lake and Onondaga Nation #Lakeback" // add a subtitle
+ logo: "/img/3.svg"
  nav_list:
   - nav: Home
     url: /

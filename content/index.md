@@ -7,7 +7,7 @@ information: "Onondaga Lake is the birthplace of democracy, lacrosse, the women'
 info: 
  title: "Water is Life"
  button: "send a postcard"
- url: "https://peacecouncil.net/noon/home/"
+ url: "https://actionnetwork.org/letters/ask-the-onondaga-county-executive-to-keep-his-promise-to-return-maple-bay"
  image: "/img/onondaga-lake-south-shoreline-700.jpg"
  text: "We aim to restore the reciprocal relationship of mutual care, amongst Onondaga Lake, all its inhabitants, and Onondaga Nation beginning with the return of Maple Bay."
  #cta: "add a call to action button"
