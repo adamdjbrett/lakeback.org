@@ -51,35 +51,15 @@ navbar:
 
 faq_active: 
  q: "What does #Lakeback mean?"
- a: "Coming soon..."
+ a: >- 
+    #LakeBack is a campaign to ensure that Maple Bay, on the shores of Onondaga Lake is returned to the Onondaga Nation. The County Legislature passed a resolution to return Maple Bay in a [2016 resolution](/pdfs/Onondaga-land-transfer-committee-resolution-5-3-16.pdf), which replaced a previous County Legislature [resolution from 2011](http://www.ongov.net/legislature/minutes/meetmins/June2011.html). Lake Back will restore the relationship between the Onondaga Nation and our sacred Onondaga Lake. This campaign grows from the global #LandBack movement. Our sister organization [Honor the Earth says](https://www.honorearth.org/land-back), &ldquo;Land Back is a political movement of returning land to Indigenous people whose land and sovereignty were stolen by settler colonialism. With land at its core, Land Back is also about reclaiming our peoplehood, medicines, ceremonies, languages &amp; our futures. It is about fighting for a world in which we all live in right relationship with the environment and each other.&rdquo;
 faq: 
- - sort: 1
-   q: "What are Adam's main research interests?"
-   a: |
-      Adam's [primary research](https://example.com/research) interests include:
-      - Digital religion
-      - Artificial intelligence and ethics
-      - Critical code studies
-      - Digital humanities methodologies
-      - American religious history American religious history"
- - sort: 2
-   q: "What is Adam's educational background?"
-   a: "Adam holds a Ph.D. in Religion <a href=\"https://example.com\">from Syracuse University</a>. He also has degrees in Religious Studies and Philosophy from the University of Waterloo"
- - sort: 3
-   q: "Another Question"
-   a: "Coming soon..."
- - sort: 4
-   q: "Another Question"
-   a: "Coming soon..."
- - sort: 5
-   q: "Another Question"
-   a: "Coming soon..."
- - sort: 6
-   q: "Another Question"
-   a: "Coming soon..."
- - sort: 7
-   q: "Another Question"
-   a: "Coming soon..."
+  - sort: 1
+    q: "What does a Caretaking Relationship for Onondaga Nation look like and mean?"
+    a: "Coming Soon"
+  - sort: 2
+    q: "Why Maple Bay"
+    a: "Located on the northwest shore, Maple Bay is a great place to start with returning Onondaga lake to Onondaga nation because it is one of the least polluted parts of the lake. It is a quiet, relatively secluded spot where there are many plants and animals. As a protected and secluded part of the lake it provides some privacy for the people who gather there. Our sister organization NOON has made a wonderful map showing the location of Maple Bay."
 
 footer:
  title: "LAKEBACK.ORG"

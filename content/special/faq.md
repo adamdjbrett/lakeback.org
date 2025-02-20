@@ -1,39 +1,20 @@
 ---
 title: FAQ
 description: Frequently Asked Questions (FAQ)
-
 faq_active: 
- q: Who is Adam DJ Brett?
- a: Adam DJ Brett is a super hero scholar, educator, and digital humanist. He is currently a Postdoctoral Fellow in Digital Humanities at Hamilton College. His research focuses on religion, technology, and culture with particular interests in digital religion, artificial intelligence, and critical code studies.
+ q: "What does a Caretaking Relationship for Onondaga Nation look like and mean?"
+ a: "Coming Soon"
 faq: 
  - sort: 1
-   q: "What are Adam's main research interests?"
-   a: |
-      Adam Dj Brett [primary research](https://example.com/research) interests include:
-      - Digital religion
-      - Artificial intelligence and ethics
-      - Critical code studies
-      - Digital humanities methodologies
-      - American religious history American religious history"
+   q: "Why Maple Bay"
+   a: "Located on the northwest shore, Maple Bay is a great place to start with returning Onondaga lake to Onondaga nation because it is one of the least polluted parts of the lake. It is a quiet, relatively secluded spot where there are many plants and animals. As a protected and secluded part of the lake it provides some privacy for the people who gather there. Our sister organization NOON has made a wonderful map showing the location of Maple Bay."
  - sort: 2
-   q: "What is Adam's educational background?"
-   a: "Adam holds a Ph.D. in Religion <a href=\"https://example.com\">from Syracuse University</a>. He also has degrees in Religious Studies and Philosophy from the University of Waterloo"
+   q: "What does #LakeBack mean?" 
+   a: |
+    Lake Back is a campaign to ensure that Maple Bay, on the shores of Onondaga Lake is returned to the Onondaga Nation. The County Legislature passed a resolution to return Maple Bay in a [2016 resolution](/pdfs/Onondaga-land-transfer-committee-resolution-5-3-16.pdf), which replaced a previous County Legislature [resolution from 2011](/pdfs/ongov-june-2011.pdf). Lake Back will restore the relationship between the Onondaga Nation and our sacred Onondaga Lake. This campaign grows from the global LandBack movement. Our sister organization [Honor the Earth says](https://www.honorearth.org/land-back), &ldquo;Land Back is a political movement of returning land to Indigenous people whose land and sovereignty were stolen by settler colonialism. With land at its core, Land Back is also about reclaiming our peoplehood, medicines, ceremonies, languages &amp; our futures. It is about fighting for a world in which we all live in right relationship with the environment and each other.&rdquo;
  - sort: 3
-   q: "Where can I find Adam's publications?"
-   a: "You can find a list of Adam's publications on the Publications page of this website. This includes journal articles, book chapters, and digital projects."
- - sort: 4
-   q: "Does Adam teach any courses?"
-   a: "Yes, Adam teaches courses related to digital humanities, religion, and technology. You can find information about his current and past courses on the Teaching page. - https://adamdjbrett.com/teaching/"
- - sort: 5
-   q: "Is Adam available for speaking engagements or consulting?"
-   a: "Adam is open to speaking engagements and consulting opportunities related to his areas of expertise. Please use the Contact form to inquire about availability and topics."
- - sort: 6
-   q: "What digital projects is Adam involved with?"
-   a: "Adam is involved in several digital humanities projects, including The American Religious Sounds Project, Mapping Religious Diversity in the US, Critical Code Studies Working Group, You can find more details about these projects on the Projects page."
- - sort: 7
-   q: "How can I learn more about Adam's work in digital humanities?"
-   a: "The Digital Humanities section of this website provides an overview of Adam's approach to DH and links to relevant projects and publications."
-
+   q: "Sample"
+   a: "&ldquo;Fancy Quotes &rdquo; [example](https://example.com)"
 permalink: /faq/
 ---
 {% include "partials/faq_post.njk" %}
