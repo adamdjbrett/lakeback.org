@@ -1,3 +1,7 @@
+# CHANGELOG
+1. Add all pages to nav and/or footer
+
+* * * 
 # LakeBack on 11ty
 
 A new version of lakeback website | Project by [Adam Dj Brett](https://www.adamdjbrett.com)

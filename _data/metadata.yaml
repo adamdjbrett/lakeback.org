@@ -4,8 +4,8 @@ language: "en"
 locale: en_US
 image: 
 favicon: /logos.png
-url: "http://localhost:8080"
-#url: "https://lakeback.org"
+#url: "http://localhost:8080"
+url: "https://lakeback.org"
 search: "Search"
 table_of_content_title: On This Page
 formspree_id: 
@@ -15,14 +15,16 @@ metasocial:
  - twitter: "https://x.com/ailanyc"
 
 navbar: 
- #logo: /logos.png
  title: "Return Maple Bay"
  sub_title: "Restore Our Sacred Onondaga Lake"
- logo: "/logos.png"
- #subtitle: "Heal the Reciprocal Relationship Between the Lake and Onondaga Nation #Lakeback" // add a subtitle
+ logo: "/img/3.svg"
  nav_list:
   - nav: Home
     url: /
+  - nav: About
+    url: /about/
+  - nav: Search
+    url: /search/  
   - nav: Timeline
     url: /timeline/
  nav_dropdown:
@@ -42,10 +44,14 @@ navbar:
      url: /search/
    - nav: Contact
      url: /contact/
+   - nav: Coalition
+     url: /coalition/  
+   - nav: Resources
+     url: /resources/ 
 
 faq_active: 
- q: Who is Adam DJ Brett?
- a: Adam DJ Brett is a scholar, educator, and digital humanist. He is currently a Postdoctoral Fellow in Digital Humanities at Hamilton College. His research focuses on religion, technology, and culture with particular interests in digital religion, artificial intelligence, and critical code studies.
+ q: "What does #Lakeback mean?"
+ a: "Coming soon..."
 faq: 
  - sort: 1
    q: "What are Adam's main research interests?"
@@ -60,36 +66,35 @@ faq:
    q: "What is Adam's educational background?"
    a: "Adam holds a Ph.D. in Religion <a href=\"https://example.com\">from Syracuse University</a>. He also has degrees in Religious Studies and Philosophy from the University of Waterloo"
  - sort: 3
-   q: "Where can I find Adam's publications?"
-   a: "You can find a list of Adam's publications on the Publications page of this website. This includes journal articles, book chapters, and digital projects."
+   q: "Another Question"
+   a: "Coming soon..."
  - sort: 4
-   q: "Does Adam teach any courses?"
-   a: "Yes, Adam teaches courses related to digital humanities, religion, and technology. You can find information about his current and past courses on the Teaching page. - https://adamdjbrett.com/teaching/"
+   q: "Another Question"
+   a: "Coming soon..."
  - sort: 5
-   q: "Is Adam available for speaking engagements or consulting?"
-   a: "Adam is open to speaking engagements and consulting opportunities related to his areas of expertise. Please use the Contact form to inquire about availability and topics."
+   q: "Another Question"
+   a: "Coming soon..."
  - sort: 6
-   q: "What digital projects is Adam involved with?"
-   a: "Adam is involved in several digital humanities projects, including The American Religious Sounds Project, Mapping Religious Diversity in the US, Critical Code Studies Working Group, You can find more details about these projects on the Projects page."
+   q: "Another Question"
+   a: "Coming soon..."
  - sort: 7
-   q: "How can I learn more about Adam's work in digital humanities?"
-   a: "The Digital Humanities section of this website provides an overview of Adam's approach to DH and links to relevant projects and publications."
+   q: "Another Question"
+   a: "Coming soon..."
 
 footer:
  title: "LAKEBACK.ORG"
  item: 
   - nav: Home
     url: /
-  - nav: Timeline
-    url: /timeline/
   - nav: About
     url: /about/
-  - nav: Authors
-    url: /authors/
+  - nav: blog
+    url: /blog/  
   - nav: FAQ
     url: /faq/
   - nav: Contact
-    url: /contact/
+    url: /contact/  
+
 
 copyrights: 
  text1: A Project by The
