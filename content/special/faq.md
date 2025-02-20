@@ -36,31 +36,4 @@ faq:
 
 permalink: /faq/
 ---
-<div class="accordion" id="accordionFAQ">
-<div class="accordion-item">
-<h2 class="accordion-header">
-<button class="accordion-button btn-cta" type="button" data-bs-toggle="collapse" aria-label="answer" data-bs-target="#collapseFAQ" aria-expanded="true" aria-controls="collapseOne">
-{{faq_active.q}}
-</button>
-</h2>
-<div id="collapseFAQ" class="accordion-collapse collapse show" aria-label="question" data-bs-parent="#accordionFAQ">
-<div class="accordion-body">
-{{faq_active.a}}
-</div>
-</div>
-</div>
-{% for fa in faq %}
-<div class="accordion-item">
-<h2 class="accordion-header">
-<button class="accordion-button collapsed btn-cta" type="button" aria-label="answer" data-bs-toggle="collapse" data-bs-target="#collapse{{fa.sort}}" aria-expanded="false" aria-controls="collapse{{fa.sort}}">
-{{fa.q}}
-</button>
-</h2>
-<div id="collapse{{fa.sort}}" class="accordion-collapse collapse" aria-label="question" data-bs-parent="#accordion{{fa.sort}}">
-<div class="accordion-body">
-{{fa.a| md | safe}}
-</div>
-</div>
-</div>
-{% endfor %}
-</div>
+{% include "partials/faq_post.njk" %}
