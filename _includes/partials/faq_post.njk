@@ -2,12 +2,12 @@
 <div class="accordion-item">
 <h2 class="accordion-header">
 <button class="accordion-button btn-cta" type="button" data-bs-toggle="collapse" aria-label="answer" data-bs-target="#collapseFAQ" aria-expanded="true" aria-controls="collapseOne">
-{{faq_active.q}}
+{{faq_active.q| md | safe}}
 </button>
 </h2>
 <div id="collapseFAQ" class="accordion-collapse collapse show" aria-label="question" data-bs-parent="#accordionFAQ">
 <div class="accordion-body">
-{{faq_active.a}}
+{{faq_active.a| md | safe}}
 </div>
 </div>
 </div>
@@ -15,7 +15,7 @@
 <div class="accordion-item">
 <h2 class="accordion-header">
 <button class="accordion-button collapsed btn-cta" type="button" aria-label="answer" data-bs-toggle="collapse" data-bs-target="#collapse{{fa.sort}}" aria-expanded="false" aria-controls="collapse{{fa.sort}}">
-{{fa.q}}
+{{fa.q| md | safe}}
 </button>
 </h2>
 <div id="collapse{{fa.sort}}" class="accordion-collapse collapse" aria-label="question" data-bs-parent="#accordion{{fa.sort}}">
