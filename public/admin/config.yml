@@ -1,4 +1,4 @@
-# local_backend: true
+#local_backend: true
 backend:
   name: git-gateway
   repo: adamdjbrett/lakeback.org
@@ -55,6 +55,19 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Description", name: "description", widget: "text"}
           - {label: "Image", name: "image", widget: "image" ,required: false}
+          - label: "Active FAQ"
+            name: "faq_active"
+            widget: "object"
+            fields:
+              - {label: "Question", name: "a", widget: "string"}
+              - {label: "Answer", name: "q", widget: "text"}
+          - label: "FAQ Items"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {label: "Sort Order", name: "sort", widget: "number", value_type: "int"}
+              - {label: "Question", name: "a", widget: "string"}
+              - {label: "Answer", name: "q", widget: "text"}
           - {label: "Permalink", name: "permalink", widget: "string", pattern: ['^\/[a-zA-Z0-9-_\/]+\/$', "Must start and end with a slash"]}
           - {label: "Body", name: "body", widget: "markdown"}
 
@@ -214,7 +227,6 @@ collections:
               - {label: "Sort Order", name: "sort", widget: "number", value_type: "int"}
               - {label: "Question", name: "a", widget: "string"}
               - {label: "Answer", name: "q", widget: "text"}
-
           - label: "Footer"
             name: "footer"
             widget: "object"

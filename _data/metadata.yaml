@@ -49,10 +49,16 @@ faq_active:
 faq: 
  - sort: 1
    q: "What are Adam's main research interests?"
-   a: "Adam's primary research interests include Digital religion, Artificial intelligence and ethics, Critical code studies, Digital humanities methodologies, American religious history"
+   a: |
+      Adam's [primary research](https://example.com/research) interests include:
+      - Digital religion
+      - Artificial intelligence and ethics
+      - Critical code studies
+      - Digital humanities methodologies
+      - American religious history American religious history"
  - sort: 2
    q: "What is Adam's educational background?"
-   a: "Adam holds a Ph.D. in Religion from Syracuse University. He also has degrees in Religious Studies and Philosophy from the University of Waterloo."
+   a: "Adam holds a Ph.D. in Religion <a href=\"https://example.com\">from Syracuse University</a>. He also has degrees in Religious Studies and Philosophy from the University of Waterloo"
  - sort: 3
    q: "Where can I find Adam's publications?"
    a: "You can find a list of Adam's publications on the Publications page of this website. This includes journal articles, book chapters, and digital projects."
