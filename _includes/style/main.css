@@ -166,27 +166,32 @@ a {color:inherit;font-weight:700;}
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.05);
+  background-color:#299999;
+  color:white;
   transition: transform 0.3s ease-out;
   z-index: -1;
 }
 
 .post-nav.previous::before {
   transform: scaleX(0);
+  color:white;
   transform-origin: 100% 50%;
 }
 
 .post-nav.next::before {
   transform: scaleX(0);
+  color:white;
   transform-origin: 0 50%;
 }
 
 .post-nav:hover::before {
   transform: scaleX(1);
+  color:white;
 }
 
 .post-nav:hover {
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  color:white;
 }
 
 .post-nav h3 {
