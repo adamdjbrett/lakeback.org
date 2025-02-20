@@ -381,13 +381,13 @@ const FAQPreview = createClass({
               h('div', {className: "faq-list"},
                 // Active FAQ
                 h('div', {className: "faq-item"},
-                  h('h3', {className: "faq-question"}, faqActive.get('a')),
+                  h('p', {className: "faq-question"}, faqActive.get('a')),
                   h('div', {className: "faq-answer"}, faqActive.get('q'))
                 ),
                 // FAQ Items
                 faqItems && faqItems.map((item, index) => 
                   h('div', {className: "faq-item", key: index},
-                    h('h3', {className: "faq-question"}, item.get('a')),
+                    h('p', {className: "faq-question"}, item.get('a')),
                     h('div', {className: "faq-answer"}, item.get('q'))
                   )
                 )

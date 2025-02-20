@@ -97,6 +97,17 @@ export default async function(eleventyConfig) {
 			}
 		}
 	});
+
+  const md = new markdownIt({
+    html: true,
+    breaks: true,
+    linkify: true
+  });
+
+  eleventyConfig.addFilter("md", function(content) {
+    return md.render(content);
+  });
+
 	eleventyConfig.addPlugin(pluginFilters);
 	eleventyConfig.addPlugin(IdAttributePlugin, {
 	});

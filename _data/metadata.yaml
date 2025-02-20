@@ -54,11 +54,17 @@ faq_active:
  a: "Coming soon..."
 faq: 
  - sort: 1
-   q: "What does a Caretaking Relationship for Onondaga Nation look like and mean?" 
-   a: "Coming soon..." 
+   q: "What are Adam's main research interests?"
+   a: |
+      Adam's [primary research](https://example.com/research) interests include:
+      - Digital religion
+      - Artificial intelligence and ethics
+      - Critical code studies
+      - Digital humanities methodologies
+      - American religious history American religious history"
  - sort: 2
-   q: "Why Maple Bay?"
-   a: "Coming soon..."
+   q: "What is Adam's educational background?"
+   a: "Adam holds a Ph.D. in Religion <a href=\"https://example.com\">from Syracuse University</a>. He also has degrees in Religious Studies and Philosophy from the University of Waterloo"
  - sort: 3
    q: "Another Question"
    a: "Coming soon..."
