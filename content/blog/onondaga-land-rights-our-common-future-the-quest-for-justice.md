@@ -4,7 +4,7 @@ description: "Come commemorate the 20th anniversary of the historic filing of th
 date: 2025-02-18
 authors: 
  - aila
-image: "/img/onondaga-lake-east-shoreline.jpg"
+image: "/img/OLRCF-Facebook-Event.jpg"
 tags:
  - events
 ---
