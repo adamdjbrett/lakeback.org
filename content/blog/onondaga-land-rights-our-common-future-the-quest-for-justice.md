@@ -31,8 +31,8 @@ The program is organized by the American Indian Law Alliance, the Indigenous Val
 
 ### For more information contact
 
-American Indian Law Alliance
-aila@aila.ngo
-[www.aila.ngo](https://aila.ngo) 
+American Indian Law Alliance  
+aila@aila.ngo  
+[www.aila.ngo](https://aila.ngo)  
 
 [View a PDF of the Flyer](/pdfs/2025-OLRCF.pdf)
