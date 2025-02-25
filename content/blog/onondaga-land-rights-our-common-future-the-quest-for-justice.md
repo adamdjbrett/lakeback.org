@@ -4,7 +4,7 @@ description: "Come commemorate the 20th anniversary of the historic filing of th
 date: 2025-02-18
 authors: 
  - aila
-image: "/img/OLRCF-Facebook-Event.jpg"
+image: "/img/olrcf-backgound.png"
 tags:
  - events
 ---
