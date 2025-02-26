@@ -3,7 +3,7 @@ title: FAQ
 description: Frequently Asked Questions (FAQ)
 faq_active: 
  q: "What does a Caretaking Relationship for Onondaga Nation look like and mean?"
- a: "Coming Soon"
+ a: "The Onondaga Nation has a mandated responsibility to care for our relatives including the earth, waters, and all beings. This is not ownership but a relationship of reciprocal care."
 faq: 
  - sort: 1
    q: "Why Maple Bay"
