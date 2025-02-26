@@ -5,6 +5,7 @@ date: 2025-02-18
 authors: 
  - aila
 image: "/img/olrcf-backgound.png"
+thumbnail: "/img/OLRCF-Facebook-Event.jpg"
 tags:
  - events
 ---
