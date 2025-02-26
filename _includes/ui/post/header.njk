@@ -1,5 +1,9 @@
 <header class="hero mb-5" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-url('{{image or metadata.image}}');" aria-label="header">
+{% if thumbnail %}
+url('{{thumbnail}}');"
+{% else %}
+url('{{image or metadata.image}}');" {% endif %}
+aria-label="header">
 <div class="px-4 py-5 my-5 text-center">
 <h1 class="display-5 mt-5 fw-bold header_title text-body-emphasis"
 ><a href="{{page.url}}" class="text-white non">{{title or metadata.title}}</a></h1>
