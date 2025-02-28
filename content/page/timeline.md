@@ -1,7 +1,7 @@
 ---
 layout: timeline.njk
 title: Timeline
-description: The Past, Present and Future of Onondaga Lake
+description: The Past, Present, and Future of Onondaga Lake
 image: /img/onondaga-lake-east-shoreline.jpg
 show_table_of_content: false
 permalink: /timeline/
