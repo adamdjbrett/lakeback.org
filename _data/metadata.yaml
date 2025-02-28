@@ -30,8 +30,6 @@ navbar:
  nav_dropdown:
   title: Menu
   item: 
-   - nav: About
-     url: /about/
    - nav: Authors
      url: /authors/
    - nav: Blog
@@ -40,8 +38,6 @@ navbar:
      url: /gallery/
    - nav: FAQ
      url: /faq/
-   - nav: Search
-     url: /search/
    - nav: Contact
      url: /contact/
    - nav: Coalition
