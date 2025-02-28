@@ -1,7 +1,8 @@
 ---
 title: Onondaga Lake Timeline
-description: This is a work in progress. The lake has a long history extending
-  far before European colonization.
+description: This is a work in progress. Ongweoweh (The Original People) and the
+  lake have a long history of reciprocal caretaking extending far before
+  European colonization.
 date: 2025-02-18
 image: /img/placeholder/600x200-dddddd.gif
 section:
