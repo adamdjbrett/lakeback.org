@@ -14,6 +14,7 @@ layout: base.njk
 {{ content | toc| safe }}
 </div></div>{% endif %}
 <heading-anchors>
+<img class="img-fluid mb-3" src="{{section.image}}"/>
 {{content|safe}}
 </heading-anchors>
 {% if date %}<p>Update on <time class="postlist-date" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("dd LLLL yyyy") }}</time></p>{% endif %}
