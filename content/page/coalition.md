@@ -1,7 +1,7 @@
 ---
 title: Coalition
 description: Are you a member of an organization that wants to join us in making
-  sure Maple Bay is given back to the Onondaga Nation? Join our Coalition below!
+  sure Maple Bay is given back to the Onondaga Nation? Join our coalition below!
 image: /img/onondaga-lake-east-shoreline.jpg
 show_table_of_content: false
 permalink: /coalition/
