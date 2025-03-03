@@ -12,9 +12,9 @@ description: >-
 
   The Onondaga Nation is the Central Fire of the Haudenosaunee Confederacy, which is today made up of six sovereign nations. The five original nations, the Mohawk, Oneida, Onondaga, Cayuga, and Seneca Nations. The Tuscarora Nation joined in the 1700s. Learn more about the founding of the Confederacy on the Onondaga Nation website. 
 date: 2025-02-01
-image: /img/p808_greattreeofpeace_web_0.webp
+image: ""
 section:
-  image: /img/placeholder/500x333-7e57ee.gif
+  image: /img/p808_greattreeofpeace_web_0.webp
   info: Over 1000 Years Ago
 show_table_of_content: true
 ---
