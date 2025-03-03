@@ -5,7 +5,7 @@ description: Gaswéñdah, the Two Row Wampum Treaty, was the first treaty
   government. This treaty is part of a long history of treaties embodied in
   wampum belts, and is the basis for all other treaty agreements between the
   Haudenosaunee and Europeans. This treaty affirmed that the Dutch and the
-  Haudenosaunee were brothers traveling down the river of life together in peace
+  Haudenosaunee are brothers traveling down the river of life together in peace
   forever- one in their ship and the other in their canoe- and that they would
   not step into one another’s vessel to disrupt it. The Treaty of Canandaigua
   (see 1794 on timeline below) made with George Washington build from the
