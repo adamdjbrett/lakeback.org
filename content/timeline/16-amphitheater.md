@@ -1,5 +1,5 @@
 ---
-title: Skä•noñh Great Law of Peace Center open across from Onondaga Lake
+title: Skä•noñh Great Law of Peace Center Opens Across from Onondaga Lake
 description: >-
   Skä•noñh Great Law of Peace Center opens across from Onondaga Lake -
   reestablishing a permanent Haudenosaunee presence at the Lake. From their
