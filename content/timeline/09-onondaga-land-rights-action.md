@@ -7,7 +7,7 @@ description: Onondaga Nation files historic Land Rights Action in federal court
 date: 2025-02-18
 image: /img/placeholder/600x200-dddddd.gif
 section:
-  image: /img/placeholder/500x333-7e57ee.gif
+  image: /img/unnamed-5-.png
   info: 2005 CE
 show_table_of_content: false
 ---
