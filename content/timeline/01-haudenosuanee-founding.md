@@ -1,9 +1,16 @@
 ---
 title: Haudenosaunee Confederacy Founded at Onondaga Lake
-description: "Over 1,000 years ago, the Haudenosaunee Confederacy was formed by
-  the Peacemaker on the shores of the Lake, according to the Gayanashagowa, or
-  Great Law of Peace. For this reason, Onondaga Lake is a sacred place for the
-  Haudenosaunee. "
+description: >-
+  Over 1,000 years ago, the Haudenosaunee Confederacy was formed by the
+  Peacemaker on the shores of the Lake, according to the Gayanashagowa, or Great
+  Law of Peace. For this reason, Onondaga Lake is a sacred place for the
+  Haudenosaunee. 
+
+
+  At the time of the Peacemaker, the Mohawk, Oneida, Onondaga, Cayuga and Seneca people were fighting and there was a great deal of death. To remind them of their ways, Creator sent a messenger so the nations could live in peace. The messenger is referred to as the Peacemaker and he brought the nations together as the Haudenosaunee Confederacy. 
+
+
+  The Onondaga Nation is the Central Fire of the Haudenosaunee Confederacy, which is today made up of six sovereign nations. The five original nations, the Mohawk, Oneida, Onondaga, Cayuga, and Seneca Nations. The Tuscarora Nation joined in the 1700s. Learn more about the founding of the Confederacy on the Onondaga Nation website. 
 date: 2025-02-01
 image: /img/placeholder/600x200-dddddd.gif
 section:
