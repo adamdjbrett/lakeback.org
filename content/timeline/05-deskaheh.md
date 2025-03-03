@@ -1,5 +1,5 @@
 ---
-title: Cayuga Chief Deskaheh travels to Geneva, Switzerland to address the
+title: Cayuga Chief Deskaheh Travels to Geneva, Switzerland to Address the
   League of Nations
 description: "Cayuga Chief Deskaheh travels to Geneva, Switzerland to address
   the League of Nations, (the predecessor of the United Nations.)  Deskaheh went
