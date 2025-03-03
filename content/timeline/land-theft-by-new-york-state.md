@@ -1,5 +1,6 @@
 ---
-title: Land theft by New York State
+title: New York State Steals 2 Million Acres of unceded Onondaga Land, Violating
+  Treaty Law
 description: Land theft by New York State
 date: 2025-03-03T14:25:00.000Z
 section:
