@@ -1,5 +1,5 @@
 ---
-title: Onondaga Lake listed as a Superfund site by the U.S. Environmental
+title: Onondaga Lake Listed as a Superfund Site by the US Environmental
   Protection Agency
 description: >-
   In 1994, Onondaga Lake was officially listed as a Superfund Site by the United
