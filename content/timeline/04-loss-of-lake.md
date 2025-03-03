@@ -1,10 +1,15 @@
 ---
-title: "Loss of Lake"
-description: "description"
+title: French Jesuits establish mission in Onondaga Nation on the Lake
+description: Sainte Marie among the Iroquois was a 17th-century French Jesuit
+  mission located in Onondaga Nation territory. It was located on Onondaga Lake.
+  The original mission was led by Jesuit priest Simon Le Moyne. Sainte Marie
+  among the Iroquois was originally known as Sainte Marie de Gannentaha or St.
+  Mary's of Ganantaa.
 date: 2025-02-18
-image: "/img/placeholder/600x200-dddddd.gif"
-section: 
- image: "/img/placeholder/500x333-7e57ee.gif"
- info: "9000 BCE - 1918 CE"
+image: /img/placeholder/600x200-dddddd.gif
+section:
+  image: /img/placeholder/500x333-7e57ee.gif
+  info: 9000 BCE - 1918 CE
+show_table_of_content: false
 ---
 ### Details
