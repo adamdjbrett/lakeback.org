@@ -1,5 +1,6 @@
 ---
-title: Sullivan-Clinton (Scorched Earth) Campaign
+title: George Washing orders Generals Sullivan and Clinton to Enact Genocidal
+  “Scorched Earth”  Campaign
 description: Sullivan-Clinton (Scorched Earth) Campaign
 date: 2025-03-03T14:26:00.000Z
 section:
