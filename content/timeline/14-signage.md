@@ -8,7 +8,7 @@ description: The Onondaga County Legislature passes resolutions committing to
 date: 2025-02-18
 image: /img/placeholder/600x200-dddddd.gif
 section:
-  image: /img/placeholder/500x333-7e57ee.gif
+  image: /img/unnamed-1-.jpg
   info: 2011 and 2016 CE
 show_table_of_content: false
 ---
