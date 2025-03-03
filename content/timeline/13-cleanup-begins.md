@@ -1,10 +1,13 @@
 ---
-title: "Cleanup Begins"
-description: "description"
+title: The United Nations Permanent Forum on Indigenous Issues (UNPFII) is created.
+description: The United Nations Permanent Forum on Indigenous Issues (UNPFII) is
+  created as a high level advisory body to the Economic and Social Council
+  (ECOSOC). Learn more on the UNPFII website.
 date: 2025-02-18
-image: "/img/placeholder/600x200-dddddd.gif"
-section: 
- image: "/img/placeholder/500x333-7e57ee.gif"
- info: "9000 BCE - 1918 CE"
+image: /img/placeholder/600x200-dddddd.gif
+section:
+  image: /img/placeholder/500x333-7e57ee.gif
+  info: July 2000 CE
+show_table_of_content: true
 ---
 ### Details
