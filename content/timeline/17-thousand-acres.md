@@ -1,6 +1,6 @@
 ---
-title: In historic land return, Onondaga Nation regains over 1,000 acres of
-  ancestral land
+title: In Historic Land Return, Onondaga Nation Regains Over 1,000 Acres of
+  Ancestral Land
 description: >
   The Onondaga Nation has regains over 1,000 acres (405 hectares) of its
   ancestral land. The forested land in the Tully Valley is near the Onondaga
