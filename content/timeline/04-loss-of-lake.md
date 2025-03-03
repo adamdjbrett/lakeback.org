@@ -1,5 +1,5 @@
 ---
-title: French Jesuits establish mission in Onondaga Nation on the Lake
+title: French Jesuits Establish Mission in Onondaga Nation at Onondaga Lake
 description: >-
   Sainte Marie among the Iroquois was a 17th-century French Jesuit mission
   located in Onondaga Nation territory. It was located on Onondaga Lake. The
