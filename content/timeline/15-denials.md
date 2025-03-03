@@ -1,5 +1,5 @@
 ---
-title: Onondaga Nation files suit in world court for land loss
+title: Onondaga Nation Files Suit in World Court for Land Loss
 description: The filed a petition against the United States with the
   Inter-­‐American Commission on Human Rights (IACHR), a body under the
   Organization of American States (OAS). Since 1788, 2.5 million acres of land
