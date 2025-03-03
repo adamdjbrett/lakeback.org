@@ -1,5 +1,5 @@
 ---
-title: Sacred Onondaga Lake becomes one of the most polluted lakes of Turtle Island
+title: Sacred Onondaga Lake Becomes One of the Most Polluted Lakes of Turtle Island
 description: >-
   Over more than 100 years, sacred Onondaga Lake was completely desecrated. As
   the city of Syracuse grew, natural landscapes and plants were removed. Raw,
