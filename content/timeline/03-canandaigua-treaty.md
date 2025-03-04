@@ -1,7 +1,12 @@
 ---
 title: The Canandaigua Treaty is Agreed to Between the United States of American
   and the Haudenosaunee Confederacy
-description: description
+description: After the US gained independence from Britain, they entered into a
+  treaty with the Haudenosaunee Confederacy of Six Nations, establishing peace
+  and friendship, and defining the boundaries of reservation lands for the
+  Oneidas, Onondagas, Cayugas, and Senecas. Treaty Day is commemorated every
+  year on November 11th in Tganǫdæ:gwęh-Canandaigua-  to polish the covenant
+  chain of friendship between the US and the Confederacy.
 date: 2025-02-18
 image: /img/placeholder/600x200-dddddd.gif
 section:
