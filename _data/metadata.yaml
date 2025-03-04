@@ -64,6 +64,12 @@ faq:
     a: |
      Lake Back is a campaign to ensure that Maple Bay, on the shores of Onondaga Lake is returned to the Onondaga Nation. The County Legislature passed a resolution to return Maple Bay in a [2016 resolution](/pdfs/Onondaga-land-transfer-committee-resolution-5-3-16.pdf), which replaced a previous County Legislature [resolution from 2011](/pdfs/ongov-june-2011.pdf). Lake Back will restore the relationship between the Onondaga Nation and our sacred Onondaga Lake. This campaign grows from the global LandBack movement. Our sister organization [Honor the Earth says](https://www.honorearth.org/land-back), &ldquo;Land Back is a political movement of returning land to Indigenous people whose land and sovereignty were stolen by settler colonialism. With land at its core, Land Back is also about reclaiming our peoplehood, medicines, ceremonies, languages &amp; our futures. It is about fighting for a world in which we all live in right relationship with the environment and each other.&rdquo;  
 
+faq_end:
+  title: "Map of Maple Bay"
+  image: "/img/unnamed-1-.jpg"
+  alt: "Map of Maple Bay"
+  text: "Hello World"
+
 footer:
  title: "LAKEBACK.ORG"
  item: 

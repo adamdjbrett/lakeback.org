@@ -25,4 +25,18 @@
 </div>
 </div>
 {% endfor %}
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed btn-cta" type="button" data-bs-toggle="collapse" aria-label="answer" data-bs-target="#collapseFAQImage" aria-expanded="true" aria-controls="collapseEnd">
+{{metadata.faq_end.title| md | safe}}
+</button>
+</h2>
+<div id="collapseFAQImage" class="accordion-collapse collapse" aria-label="question" data-bs-parent="#accordionFAQImage">
+<div class="accordion-body">
+<img class="img-fluid shadow-sm rounded mb-3" alt="{{metadata.faq_end.alt}}" src="{{metadata.faq_end.image}}" loading="lazy"/>
+{{metadata.faq_end.text| md | safe}}
+</div>
+</div>
+</div>
+</div>
 </div>
