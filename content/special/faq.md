@@ -3,9 +3,16 @@ title: FAQ
 description: Frequently Asked Questions
 faq_active:
   q: What does a caretaking relationship mean for the Onondaga Nation?
-  a: The Onondaga Nation has a mandated responsibility to care for our relatives
+  a: |
+    The Onondaga Nation has a mandated responsibility to care for our relatives
     including the earth, waters, and all beings. This is not ownership but a
     relationship of reciprocal care.
+    -Ganoñhéñ•nyoñ’- Giving thanks to all
+    -Planning for the next 7 generations as we borrow from them
+    -Taking no more than we need
+    -Sharing what we have with others
+    -Maintaining drinkable water
+    -Caring for native wildlife to ensure their good health
 faq:
   - sort: 1
     q: Why Maple Bay?
@@ -33,7 +40,7 @@ faq:
       languages &amp; our futures. It is about fighting for a world in which we
       all live in right relationship with the environment and each
       other.&rdquo;"
-  - sort: 5
+  - sort: 3
     q: Sample
     a: -Ganoñhéñ•nyoñ’- Giving thanks to all -Planning for the next 7 generations as
       we borrow from them -Taking no more than you need -Sharing what you have
