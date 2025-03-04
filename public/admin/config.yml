@@ -59,15 +59,23 @@ collections:
             name: "faq_active"
             widget: "object"
             fields:
-              - {label: "Question", name: "a", widget: "string"}
-              - {label: "Answer", name: "q", widget: "text"}
+              - {label: "Question", name: "q", widget: "string"}
+              - {label: "Answer", name: "a", widget: "text"}
           - label: "FAQ Items"
             name: "faq"
             widget: "list"
             fields:
               - {label: "Sort Order", name: "sort", widget: "number", value_type: "int"}
-              - {label: "Question", name: "a", widget: "string"}
-              - {label: "Answer", name: "q", widget: "text"}
+              - {label: "Question", name: "q", widget: "string"}
+              - {label: "Answer", name: "a", widget: "text"}
+          - label: "FAQ Image"
+            name: "faq_end"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string",required: false}
+              - {label: "Image", name: "image", widget: "image",required: false}
+              - {label: "Image Alt", name: "alt", widget: "string",required: false}
+              - {label: "Text Information", name: "text", widget: "text",required: false}
           - {label: "Permalink", name: "permalink", widget: "string", pattern: ['^\/[a-zA-Z0-9-_\/]+\/$', "Must start and end with a slash"]}
           - {label: "Body", name: "body", widget: "markdown"}
 
@@ -219,15 +227,23 @@ collections:
             name: "faq_active"
             widget: "object"
             fields:
-              - {label: "Question", name: "a", widget: "string"}
-              - {label: "Answer", name: "q", widget: "text"}
+              - {label: "Answer", name: "q", widget: "string"}
+              - {label: "Question", name: "a", widget: "text"}
           - label: "FAQ Items"
             name: "faq"
             widget: "list"
             fields:
               - {label: "Sort Order", name: "sort", widget: "number", value_type: "int"}
-              - {label: "Question", name: "a", widget: "string"}
-              - {label: "Answer", name: "q", widget: "text"}
+              - {label: "Question", name: "q", widget: "string"}
+              - {label: "Answer", name: "a", widget: "text"}
+          - label: "FAQ Image"
+            name: "faq_end"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string",required: false}
+              - {label: "Image", name: "image", widget: "image",required: false}
+              - {label: "Image Alt", name: "alt", widget: "string",required: false}
+              - {label: "Text Information", name: "text", widget: "text",required: false}
           - label: "Footer"
             name: "footer"
             widget: "object"

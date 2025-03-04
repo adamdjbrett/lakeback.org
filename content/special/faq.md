@@ -46,6 +46,11 @@ faq:
       we borrow from them -Taking no more than you need -Sharing what you have
       with others -Maintaining drinkable water -Caring for native wildlife to
       ensure their good health
+faq_end:
+  title: "Map of Maple Bay"
+  image: "/img/unnamed-1-.jpg"
+  alt: "Map of Maple Bay"
+  text: "Hello World"
 permalink: /faq/
 ---
 {% include "partials/faq_post.njk" %}

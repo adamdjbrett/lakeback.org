@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
 html,body,.lead {
   font-family: "Atkinson Hyperlegible Next", serif;
   font-size: 22px;
@@ -57,6 +58,7 @@ font-family: "Lato", serif;
   text-align: center;
   color: white;
 }
+.text-date {font-family: "Kanit", sans-serif;font-size:28px;}
 .hero_main {padding:20px;margin-top:50px;}
 a.non {text-decoration:none;}
 img,iframe,.btn,button,.form-control,.form-select,.dropdown-menu {
