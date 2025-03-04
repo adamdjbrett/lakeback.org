@@ -1,5 +1,5 @@
 ---
-title: Haudenosaunee Confederacy Founded at Onondaga Lake
+title: Hodinöhsö:ni’ (Haudenosaunee) Confederacy Founded at Onondaga Lake
 description: >-
   Over 1,000 years ago, the Haudenosaunee Confederacy was formed by the
   Peacemaker on the shores of the Lake, according to the Gayanashagowa, or Great
