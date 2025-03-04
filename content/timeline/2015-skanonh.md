@@ -13,7 +13,7 @@ description: >-
 
 
   The Skä•noñh Great Law of Peace Center is located at the site of the former Sainte Marie Among the Iroquois, see 1656-1658 on the timeline above.
-date: 2025-02-18
+date: 2025-02-15
 image: /img/placeholder/600x200-dddddd.gif
 section:
   image: /img/unnamed-7-.png

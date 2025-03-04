@@ -7,7 +7,7 @@ description: "The United Nations General Assembly adopts the Declaration on the
   later reversed their position and expressed support for UNDRIP. Leaders from
   the Onondaga Nation and Haudenosaunee Confederacy were leaders in all stages
   of the negotiations to pass the UN Declaration."
-date: 2025-02-18
+date: 2025-02-12
 image: /img/placeholder/600x200-dddddd.gif
 section:
   image: /img/unnamed-6-.png

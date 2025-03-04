@@ -9,7 +9,7 @@ description: >-
 
 
   Recreation of the mission, which was previously its own historical site, it has since been incorporated into the Skä•noñh Great Law of Peace Center, see 2015 on the timeline below.
-date: 2025-02-18
+date: 2025-02-03
 image: /img/placeholder/600x200-dddddd.gif
 section:
   image: /img/unnamed.png

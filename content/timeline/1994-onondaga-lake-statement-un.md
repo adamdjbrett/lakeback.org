@@ -9,7 +9,7 @@ description: >-
 
 
   For background, in 1980 the U.S. Congress established the Comprehensive Environmental Response, Compensation and Liability Act (CERCLA), informally referred to as Superfund. This allows EPA to clean up contaminated places and forces the responsible polluters to perform the cleanup or pay the U.S. government for EPA-led cleanup work. See 2024 on the timeline below. 
-date: 2025-02-18
+date: 2025-02-09
 image: /img/placeholder/600x200-dddddd.gif
 section:
   image: /img/unnamed-3-.png

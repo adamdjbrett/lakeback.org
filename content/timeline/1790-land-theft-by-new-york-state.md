@@ -8,7 +8,7 @@ description: For over thirty years, New York State representatives entered into
   with the state selling much of it to private entities. These land takings
   enabled the building of the Erie Canal, which directly impacted the health of
   Onondaga Lake.
-date: 2025-03-03T14:25:00.000Z
+date: 2025-02-05T14:25:00.000Z
 section:
   info: 1790-1822 CE
   image: /img/img_2880.jpg

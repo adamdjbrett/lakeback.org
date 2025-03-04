@@ -7,7 +7,7 @@ description: >-
 
 
   The delegation attended the International NGO Conference on Discrimination against Indigenous Populations in the Americas. The conference took place through the Sub-Committee on Racism, Racial Discrimination, Apartheid and Decolonization of the Special Committee on Human Rights, which is part of the United Nations Economic and Social Council (ECOSOC). 
-date: 2025-02-18
+date: 2025-02-08
 image: /img/placeholder/600x200-dddddd.gif
 section:
   image: /img/unnamed-2-.png

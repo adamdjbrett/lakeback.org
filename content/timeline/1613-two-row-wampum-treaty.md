@@ -10,7 +10,7 @@ description: Gaswéñdah, the Two Row Wampum Treaty, was the first treaty
   not step into one another’s vessel to disrupt it. The Treaty of Canandaigua
   (see 1794 on timeline below) made with George Washington build from the
   agreements of the Two Row Wampum.
-date: 2025-02-18
+date: 2025-02-02
 image: /img/placeholder/600x200-dddddd.gif
 section:
   image: /img/two-row-wampum.jpg

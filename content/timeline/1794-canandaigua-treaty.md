@@ -7,7 +7,7 @@ description: After the US gained independence from Britain, they entered into a
   Oneidas, Onondagas, Cayugas, and Senecas. Treaty Day is commemorated every
   year on November 11th in Tganǫdæ:gwęh-Canandaigua-  to polish the covenant
   chain of friendship between the US and the Confederacy.
-date: 2025-02-18
+date: 2025-02-06
 image: /img/placeholder/600x200-dddddd.gif
 section:
   image: /img/wampum_washington.jpg

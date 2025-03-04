@@ -10,7 +10,7 @@ description: >
 
 
   This land is part of an expanse of 2.5 million acres (1 million hectares) that was illegally taken over decades by New York State, beginning in 1788. The land was taken through illegal maneuvers that violated nation-to-nation treaties as well as U.S. federal law.
-date: 2025-02-18
+date: 2025-02-16
 image: /img/placeholder/600x200-dddddd.gif
 section:
   image: /img/unnamed-8-.png
