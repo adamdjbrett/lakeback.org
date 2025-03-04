@@ -1,6 +1,6 @@
 ---
 title: FAQ
-description: Frequently Asked Questions (FAQ)
+description: Frequently Asked Questions
 faq_active:
   q: What does a caretaking relationship mean for the Onondaga Nation?
   a: The Onondaga Nation has a mandated responsibility to care for our relatives
