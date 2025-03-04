@@ -15,15 +15,6 @@ faq_active:
     -Caring for native wildlife to ensure their good health
 faq:
   - sort: 1
-    q: Why Maple Bay?
-    a: Located on the northwest shore, Maple Bay is a great place to start with
-      returning Onondaga lake to Onondaga nation because it is one of the least
-      polluted parts of the lake. It is a quiet, relatively secluded spot where
-      there are many plants and animals. As a protected and secluded part of the
-      lake it provides some privacy for the people who gather there. Our sister
-      organization NOON has made a wonderful map showing the location of Maple
-      Bay.
-  - sort: 2
     q: "What does #LakeBack mean?"
     a: "#Lakeback is a campaign to ensure that Maple Bay, on the shores of Onondaga
       Lake is returned to the Onondaga Nation. The County Legislature passed a
@@ -40,12 +31,21 @@ faq:
       languages &amp; our futures. It is about fighting for a world in which we
       all live in right relationship with the environment and each
       other.&rdquo;"
-  - sort: 3
-    q: Sample
+  - sort: 2
+    q: Thanksgiving Address
     a: -Ganoñhéñ•nyoñ’- Giving thanks to all -Planning for the next 7 generations as
       we borrow from them -Taking no more than you need -Sharing what you have
       with others -Maintaining drinkable water -Caring for native wildlife to
       ensure their good health
+  - sort: 3
+    q: Why Maple Bay?
+    a: Located on the northwest shore, Maple Bay is a great place to start with
+      returning Onondaga lake to Onondaga nation because it is one of the least
+      polluted parts of the lake. It is a quiet, relatively secluded spot where
+      there are many plants and animals. As a protected and secluded part of the
+      lake it provides some privacy for the people who gather there. Our sister
+      organization NOON has made a wonderful map showing the location of Maple
+      Bay.
 faq_end:
   title: "Map of Maple Bay"
   image: "/img/unnamed-1-.jpg"
