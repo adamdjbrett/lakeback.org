@@ -33,9 +33,12 @@ faq:
       languages &amp; our futures. It is about fighting for a world in which we
       all live in right relationship with the environment and each
       other.&rdquo;"
-  - sort: 3
+  - sort: 5
     q: Sample
-    a: "&ldquo;Fancy Quotes &rdquo; [example](https://example.com)"
+    a: -Ganoñhéñ•nyoñ’- Giving thanks to all -Planning for the next 7 generations as
+      we borrow from them -Taking no more than you need -Sharing what you have
+      with others -Maintaining drinkable water -Caring for native wildlife to
+      ensure their good health
 permalink: /faq/
 ---
 {% include "partials/faq_post.njk" %}
