@@ -32,6 +32,8 @@ navbar:
   item: 
    - nav: Authors
      url: /authors/
+   - nav: Action
+     url: /action/  
    - nav: Blog
      url: /blog/
    - nav: Gallery
