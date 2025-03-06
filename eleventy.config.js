@@ -108,6 +108,10 @@ export default async function(eleventyConfig) {
     return md.render(content);
   });
 
+  eleventyConfig.addShortcode("ctaButton", function(href, text) {
+    return `<a class="btn btn-cta" href="${href}">${text}</a>`;
+  });
+
 	eleventyConfig.addPlugin(pluginFilters);
 	eleventyConfig.addPlugin(IdAttributePlugin, {
 	});
