@@ -233,6 +233,25 @@ a {color:inherit;font-weight:700;}
 .btn-cta {background-color:#299999;color:white;}
 .btn-cta:hover {background-color:#197F7F;color:white;}
 
+/* Untuk seluruh form */
+.form_15iP5 {
+  background-color: #f5f5f5 !important; /* Ubah warna background form */
+  border-radius: 10px !important; /* Sudut lebih melengkung */
+}
+
+/* Untuk input fields */
+.input_3Dy0L {
+  border: 2px solid #299999 !important;
+  padding: 10px !important;
+}
+
+/* Untuk teks header */
+.form_15iP5 h1 {
+  color: #299999 !important;
+  font-size: 2em !important;
+}
+
+
 /* Mobile */
 @media screen and (max-width: 480px) {
 .header_title {padding-top:130px;}
