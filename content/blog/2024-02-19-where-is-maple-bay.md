@@ -4,7 +4,7 @@ description: Maple Bay on Onondaga Lake
 date: 2025-02-19
 authors:
   - aila
-image: /img/onondaga-lake-east-shoreline.jpg
+image: /img/onondaga-lake-east-shoreline.webp
 show_table_of_content: false
 tags:
   - notes

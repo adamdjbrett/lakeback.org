@@ -1,7 +1,7 @@
 ---
 title: Take Action
 description: Return Maple Bay ~ Restore Our Sacred Onondaga Lake
-image: /img/onondaga-lake-east-shoreline.jpg
+image: /img/onondaga-lake-east-shoreline.webp
 show_table_of_content: false
 permalink: /action/
 ---

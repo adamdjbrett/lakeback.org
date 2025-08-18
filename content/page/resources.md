@@ -1,7 +1,7 @@
 ---
 title: Resources
 description: Resources for growth
-image: /img/onondaga-lake-east-shoreline.jpg
+image: /img/onondaga-lake-east-shoreline.webp
 show_table_of_content: false
 permalink: /resources/
 ---

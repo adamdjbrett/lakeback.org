@@ -1,7 +1,7 @@
 - key: aila
   name: "American Indian Law Alliance"
   image: "/img/aila-logo.png"
-  cover: "/img/onondaga-lake-east-shoreline.jpg"
+  cover: "/img/onondaga-lake-east-shoreline.webp"
   bio: "American Indian Law Alliance"
   info: "American Indian Law Alliance (AILA) is a non-profit organization that works with Indigenous Nations and peoples in the Americas to protect their sovereignty, human rights, and Mother Earth."
   intro: 
@@ -50,7 +50,7 @@
 - key: bettyhill
   name: "Betty Hill (Lyons)"
   image: "/img/Betty-Lyons-2020-225x300.jpg"
-  cover: "/img/onondaga-lake-east-shoreline.jpg"
+  cover: "/img/onondaga-lake-east-shoreline.webp"
   bio: "Executive Director "
   info: "Betty Hill (Lyons), President & Executive Director of the American Indian Law Alliance (AILA), is an Indigenous and environmental activist and citizen of the Onondaga Nation."
   intro: 
