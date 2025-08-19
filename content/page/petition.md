@@ -6,7 +6,7 @@ show_button: true
 button: 
  text: "Sign In Now"
  url: "https://actionnetwork.org/letters/ask-the-onondaga-county-executive-to-keep-his-promise-to-return-maple-bay/"
- open_new_window: false
+ open_new_window: true
  type: outline
  color: 
    background: "#299999"
