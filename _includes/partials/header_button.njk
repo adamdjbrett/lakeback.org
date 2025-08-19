@@ -1,0 +1,4 @@
+{% if show_button %}
+<p class="mt-5"><a href="{{button.url}}" {% if button.open_new_window %}target="_blank"{% endif %}
+class="btn btn-lg btn-custom" style="background-color:{{button.color.background}}; color: {{button.color.text}}">{{button.text}}</a></p>
+{% endif %}

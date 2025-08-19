@@ -6,6 +6,8 @@
 
 A new version of lakeback website | Project by [Adam Dj Brett](https://www.adamdjbrett.com)
 
+For Project and Information Contact : info@adamdjbrett.com
+
 Features: 
 + 11ty New Version V.3
 + Minimalist Concept
@@ -40,3 +42,19 @@ Features:
 
 + [www.adamdjbrett.com](https://www.adamdjbrett.com)
 + info@adamdjbrett.com
+
+
+### Change Log
+
+##### 19 Aug 2025
+
++ Update New 11ty Versioning
++ Update All Dependencies
++ Update Custom Header Button Section
+	- Show Button Optional ( True / False )
+	- Target Blank Optional ( True / False )
+	- Button Background Color
+	- Button Text Color
+	- Button Text Information
+	- Button URL Link
++ Update CMS Backend Integration with new Update
