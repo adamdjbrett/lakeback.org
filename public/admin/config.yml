@@ -42,8 +42,20 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Show Table of Content", name: "show_table_of_content", widget: "boolean", default: false}
-      - {label: "Permalink", name: "permalink", widget: "string", pattern: ['^\/[a-zA-Z0-9-_\/]+\/$', "Must start and end with a slash"]}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Button"
+        name: "button"
+        widget: "object"
+        fields:
+          - { label: "Text", name: "text", widget: "string" , required: false}
+          - { label: "URL", name: "url", widget: "string" , required: false}
+          - { label: "Open New Window", name: "open_new_window", widget: "boolean", default: true }
+          - label: "Color"
+            name: "color"
+            widget: "object"
+            fields:
+              - { label: "Background", name: "background", widget: "string", default: "#299999" , required: false}
+              - { label: "Text", name: "text", widget: "string", default: "white" , required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
 
   - name: "faqs"
     label: "FAQ Pages"

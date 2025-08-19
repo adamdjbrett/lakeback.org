@@ -2,6 +2,14 @@
 title: Petition
 description: "Sign the Petition to Return Maple Bay"
 image: /img/onondaga-lake-east-shoreline.webp
+show_button: true
+button: 
+ text: "Sign In Now"
+ url: "https://actionnetwork.org/letters/ask-the-onondaga-county-executive-to-keep-his-promise-to-return-maple-bay/"
+ open_new_window: true
+ color: 
+   background: "#299999"
+   text: "white"
 show_table_of_content: false
 permalink: /petition/
 ---

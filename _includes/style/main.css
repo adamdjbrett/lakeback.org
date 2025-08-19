@@ -104,6 +104,13 @@ font-size: 18px;
   width: var(--bs-dropdown-min-width) !important;
 }
 
+.btn-custom {
+  transition: background 0.3s, filter 0.3s;
+}
+
+.btn-custom:hover {
+  filter: brightness(85%);
+}
 
 [data-bs-theme="light"] .custom-nav-pills .nav-link.active {
   background-color: var(--bs-dark);
