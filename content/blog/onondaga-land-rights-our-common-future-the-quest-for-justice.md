@@ -23,7 +23,7 @@ Come commemorate the 20th anniversary of the historic filing of the Onondaga Lan
 Despite the fact that the US courts rejected the Onondaga Nation’s call for justice and healing, important progress has been made, including the recent return of 1,000 acres of land in the Tully Valley. The treaties upon which the Onondaga Land Right Action is based remain in effect and all people have a responsibility to uphold them.
 
 
-On March 11, 2005, the Onondaga petitioned the federal court in Syracuse to declare that New York violated Treaties, the Constitution, and federal laws when it took some 4,000 square miles of Onondaga Land (an area that stretches south past Binghamton and north past Watertown). The State of New York, the City of Syracuse, Onondaga County, and five corporations for illegal land takings and damage were sued by Onondaga Nation for inflicting harm on the environment. Learn more here: https://www.onondaganation.org/land-rights/ 
+On March 11, 2005, the Onondaga petitioned the federal court in Syracuse to declare that New York violated Treaties, the Constitution, and federal laws when it took some 4,000 square miles of Onondaga Land (an area that stretches south past Binghamton and north past Watertown). The State of New York, the City of Syracuse, Onondaga County, and five corporations for illegal land takings and damage were sued by Onondaga Nation for inflicting harm on the environment. [Learn more here:](https://www.onondaganation.org/land-rights/) 
 
 
 Syracuse Stage is wheelchair accessible and CART will be available for program accessibility. Following the program there will be a reception with light refreshments. There will be tables from different organizations for getting involved. 
