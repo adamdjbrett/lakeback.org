@@ -16,4 +16,5 @@ To the Onondagas, the lake and its ecosystem are not commodities or resources �
 
 “That water is like the blood in our veins,” Lyons said. “It’s who we are.”
 </blockquote>
-[Read more ...](https://centralcurrent.org/the-blood-in-our-veins-onondagas-reignite-effort-to-win-back-maple-bay-a-foothold-on-onondaga-lake/)
+
+<p><a href="https://centralcurrent.org/the-blood-in-our-veins-onondagas-reignite-effort-to-win-back-maple-bay-a-foothold-on-onondaga-lake/" target="_blank" alt="Read more of the Article on Central Current">Read more ...</a></p>
