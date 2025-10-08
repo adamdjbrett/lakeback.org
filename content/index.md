@@ -11,7 +11,7 @@ information: Onondaga Lake is the birthplace of democracy, lacrosse, the women's
   Confederacy with the 1794 Canandaigua treaty.
 info:
   title: Water is Life
-  button: send a postcard
+  button: Send an email to decision makers
   url: https://actionnetwork.org/letters/return-maple-bay-to-the-onondaga-nation?source=direct_link&
   image: /img/onondaga-lake-south-shoreline-700.jpg
   text: We aim to restore the reciprocal relationship of mutual care amongst
