@@ -12,7 +12,7 @@ information: Onondaga Lake is the birthplace of democracy, lacrosse, the women's
 info:
   title: Water is Life
   button: send a postcard
-  url: https://actionnetwork.org/letters/ask-the-onondaga-county-executive-to-keep-his-promise-to-return-maple-bay
+  url: https://actionnetwork.org/letters/return-maple-bay-to-the-onondaga-nation?source=direct_link&
   image: /img/onondaga-lake-south-shoreline-700.jpg
   text: We aim to restore the reciprocal relationship of mutual care amongst
     Onondaga Lake, all its inhabitants, and Onondaga Nation beginning with the

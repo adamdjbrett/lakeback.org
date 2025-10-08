@@ -15,4 +15,4 @@ Our friends at [Neighbors of Onondaga Nation - NOON](https://peacecouncil.net/no
 
 We ask that you take a moment and write to the Onondaga County Executive and ask him to honor the County's committment to return a piece of the lake to Onondaga Nation. 
 
-[Send a postcard](https://actionnetwork.org/letters/ask-the-onondaga-county-executive-to-keep-his-promise-to-return-maple-bay).
+[Send a postcard](https://actionnetwork.org/letters/return-maple-bay-to-the-onondaga-nation?source=direct_link&).
