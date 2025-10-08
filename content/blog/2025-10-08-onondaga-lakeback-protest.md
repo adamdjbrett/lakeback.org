@@ -4,7 +4,7 @@ description: "As Central New Yorkers gathered to commemorate an ‘Erie Canal mo
 date: 2025-10-08
 authors:
   - aila
-image: /img/onondaga-lake-east-shoreline.webp
+image: /img/LakeBannerDrop1-Mike-Greenlar-CentralCurrent.webp
 show_table_of_content: false
 tags:
   - notes
