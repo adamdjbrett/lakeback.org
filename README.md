@@ -58,3 +58,13 @@ Features:
 	- Button Text Information
 	- Button URL Link
 + Update CMS Backend Integration with new Update
+
+##### 09 Oct 2025
+
++ Update BSKY Integration
++ Add BSKY on metadata
++ Update SEO with bsky metatag
++ Add canoncial url on blog post frontmatter
++ Integration new bsky features
++ Update CMS Backend Integration with new Update
+
