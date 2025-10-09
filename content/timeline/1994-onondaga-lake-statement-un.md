@@ -12,7 +12,7 @@ description: >-
 date: 2025-02-09
 image: /img/placeholder/600x200-dddddd.gif
 section:
-  image: /img/unnamed-3-.png
+  image: /img/unnamed-3-.webp
   info: 1994 CE
 show_table_of_content: false
 ---

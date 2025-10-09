@@ -13,7 +13,7 @@ description: " During the American Revolutionary War, Haudenosaunee Nation
 date: 2025-02-04T14:26:00.000Z
 section:
   info: 1779 CE
-  image: /img/photo116538.jpg
+  image: /img/photo116538.webp
 show_table_of_content: false
 ---
 Sullivan-Clinton (Scorched Earth) Campaign

@@ -6,8 +6,8 @@ authors:
  - aila
  - adamdjbrett
  - bettyhill
-image: "/img/olrcf-backgound.png"
-thumbnail: "/img/OLRCF-Facebook-Event.jpg"
+image: "/img/olrcf-backgound.webp"
+thumbnail: "/img/OLRCF-Facebook-Event.webp"
 tags:
  - events
 ---
@@ -15,7 +15,7 @@ tags:
 - Monday, March 10, 6:30 pm
 - Syracuse Stage, 820 E Genesee St, Syracuse
 
-![Poster](/img/2025-OLRCF-1.png)
+![Poster](/img/2025-OLRCF-1.webp)
 
 Come commemorate the 20th anniversary of the historic filing of the Onondaga Land Rights Action. Onondaga leaders and educators Jeanne Shenandoah (Onondaga Nation, Eel Clan), Onondaga elder and Traditional Medicine Keeper and Haiwhagai’i Jake Edwards (Onondaga Nation, Eel Clan) will share important history and reflect on progress made. Onondaga Nation General Counsel Joe Heath will review the legal history, including the case currently before the Inter-American Commission on Human Rights.
 

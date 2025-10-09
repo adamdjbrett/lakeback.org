@@ -13,7 +13,7 @@ description: Gaswéñdah, the Two Row Wampum Treaty, was the first treaty
 date: 2025-02-02
 image: /img/placeholder/600x200-dddddd.gif
 section:
-  image: /img/two-row-wampum.jpg
+  image: /img/two-row-wampum.webp
   info: 1613 CE
 show_table_of_content: false
 ---

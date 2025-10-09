@@ -566,7 +566,7 @@ a,.css-b18hzq-AppHeaderNavLink-AppHeaderButton-button-button-buttonActive-button
 
 .css-rdgl1o-IconWrapper-DecapLogoIcon::before {
     content: "";
-    background-image: url('https://wsrv.nl/?url=https://aila.social/img/apple-touch-icon.png&w=80&h=80&output=webp');
+    background-image: url('https://wsrv.nl/?url=https://aila.social/img/apple-touch-icon.webp&w=80&h=80&output=webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

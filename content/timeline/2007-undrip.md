@@ -10,7 +10,7 @@ description: "The United Nations General Assembly adopts the Declaration on the
 date: 2025-02-12
 image: /img/placeholder/600x200-dddddd.gif
 section:
-  image: /img/unnamed-6-.png
+  image: /img/unnamed-6-.webp
   info: September 2007 CE
 show_table_of_content: false
 ---

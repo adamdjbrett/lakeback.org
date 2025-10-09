@@ -3,7 +3,7 @@ description: "Heal the Reciprocal Relationship Between the Lake and Onondaga Nat
 language: "en"
 locale: en_US
 image: 
-favicon: /logos.png
+favicon: /logos.webp
 #url: "http://localhost:8080"
 url: "https://lakeback.org"
 search: "Search"
@@ -69,7 +69,7 @@ faq:
 
 faq_end:
   title: "Map of Maple Bay"
-  image: "/img/unnamed-1-.jpg"
+  image: "/img/unnamed-1-.webp"
   alt: "Map of Maple Bay"
   text: "Our sister organization NOON has made a wonderful map showing the location of Maple Bay."
 
@@ -97,6 +97,6 @@ copyrights:
 
 author: 
  name: "Betty Lyons"
- image: "/img/Betty-Lyons-Headshot-1.jpg"
+ image: "/img/Betty-Lyons-Headshot-1.webp"
  email: "aila@aila.ngo"
  url: "https://www.aila.ngo"
