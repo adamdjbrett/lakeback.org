@@ -2,7 +2,6 @@
 title: Where is Maple Bay?
 description: Maple Bay on Onondaga Lake
 date: 2025-02-19
-canonical_url: https://adamdjbrett.com
 authors:
   - aila
 image: /img/onondaga-lake-east-shoreline.webp
