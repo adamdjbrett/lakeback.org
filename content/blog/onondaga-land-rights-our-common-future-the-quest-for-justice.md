@@ -2,6 +2,7 @@
 title: "Onondaga Land Rights & Our Common Future: The Quest For Justice"
 description: "Come commemorate the 20th anniversary of the historic filing of the Onondaga Land Rights Action"
 date: 2025-02-18
+canonical_url: "https://adamdjbrett.com"
 authors: 
  - aila
  - adamdjbrett

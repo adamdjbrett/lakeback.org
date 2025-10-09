@@ -8,7 +8,7 @@ image: /img/LakeBannerDrop1-Mike-Greenlar-CentralCurrent.webp
 show_table_of_content: false
 tags:
   - notes
-canonical_url: https://centralcurrent.org/onondaga-lakeback-protest-shades-arrival-of-seneca-chief-with-history-of-harm/
+canonical_url: "https://centralcurrent.org/onondaga-lakeback-protest-shades-arrival-of-seneca-chief-with-history-of-harm/"
 ---
 <blockquote>
 <p>Shortly before noon, Tadodaho (spiritual leader) Sid Hill and other representatives of the Onondaga Nation unfurled a 25-foot blue banner. Iridescent balloon weights were tied to the bottom to hold it down. In large white letters, it read:&nbsp;</p>
