@@ -2,7 +2,6 @@
 title: "Healing the Sacred: The Fight to Restore Onondaga Lake and Honor Indigenous Land"
 description: "The Onondaga Nation is petitioning the Organization of American States (OAS) for land rights to Onondaga Lake, a notoriously polluted body of water in Central New York State."
 date: 2025-09-18
-canonical_url: https://adamdjbrett.com
 authors:
   - aila
 image: /img/onondaga-lake-east-shoreline.webp
