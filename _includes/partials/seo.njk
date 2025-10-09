@@ -19,11 +19,11 @@
 <meta content="{{ image or metadata.image }}" name="og:image">
 <link href="{{ metadata.favicon }}" rel="icon" type="image/x-icon">
 <link rel="apple-touch-icon" href="{{ metadata.favicon }}">
-<meta content="{{ metadata.metasocial[0].facebook }}" property="facebook:author">
-<meta content="{{ metadata.metasocial[0].twitteruser }}" property="twitter:author">
+<meta content="{{ metadata.metasocial[1].facebook }}" property="facebook:author">
+<meta content="{{ metadata.metasocial[2].twitteruser }}" property="twitter:author">
 <meta content="{{ metadata.metasocial[0].bsky }}" property="bsky:author">
 <meta property="dc:creator" content="{{ metadata.author.name }}" />
-<meta content="{{ metadata.metasocial[0].twitter }}" name="twitter:site">
+<meta content="{{ metadata.metasocial[3].twitter }}" name="twitter:site">
 <meta property="og:type" content="website">
 <link rel="canonical" href="{{ metadata.url }}{{ page.url or canonical_url }}"/>
 <link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
