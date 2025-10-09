@@ -10,7 +10,7 @@ description: >-
 date: 2025-02-07
 section:
   info: 1884-1986 CE
-  image: /img/whitecliffs.jpg
+  image: /img/whitecliffs.webp
 show_table_of_content: false
 ---
 Over more than 100 years, sacred Onondaga Lake was completely desecrated. As the city of Syracuse grew, natural landscapes and plants were removed. Raw, untreated sewage was sent directly to the lake. Even when treatment started, it was insufficient. From the Onondaga Environmental Institute website: 

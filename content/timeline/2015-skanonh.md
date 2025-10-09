@@ -16,7 +16,7 @@ description: >-
 date: 2025-02-15
 image: /img/placeholder/600x200-dddddd.gif
 section:
-  image: /img/unnamed-7-.png
+  image: /img/unnamed-7-.webp
   info: 2015 CE
 show_table_of_content: false
 ---

@@ -48,7 +48,7 @@ faq:
       Bay.
 faq_end:
   title: "Map of Maple Bay"
-  image: "/img/unnamed-1-.jpg"
+  image: "/img/unnamed-1-.webp"
   alt: "Map of Maple Bay"
   text: "Hello World"
 permalink: /faq/

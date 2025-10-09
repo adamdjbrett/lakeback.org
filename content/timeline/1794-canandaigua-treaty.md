@@ -10,7 +10,7 @@ description: After the US gained independence from Britain, they entered into a
 date: 2025-02-06
 image: /img/placeholder/600x200-dddddd.gif
 section:
-  image: /img/wampum_washington.jpg
+  image: /img/wampum_washington.webp
   info: 1794 CE
 show_table_of_content: false
 ---

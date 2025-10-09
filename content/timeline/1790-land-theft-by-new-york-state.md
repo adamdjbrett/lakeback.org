@@ -11,7 +11,7 @@ description: For over thirty years, New York State representatives entered into
 date: 2025-02-05T14:25:00.000Z
 section:
   info: 1790-1822 CE
-  image: /img/img_2880.jpg
+  image: /img/img_2880.webp
 show_table_of_content: false
 ---
 \    Land theft by New York State

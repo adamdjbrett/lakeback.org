@@ -13,7 +13,7 @@ description: >
 date: 2025-02-16
 image: /img/placeholder/600x200-dddddd.gif
 section:
-  image: /img/unnamed-8-.png
+  image: /img/unnamed-8-.webp
   info: 2024 CE
 show_table_of_content: false
 ---

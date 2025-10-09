@@ -1,6 +1,6 @@
 - key: aila
   name: "American Indian Law Alliance"
-  image: "/img/aila-logo.png"
+  image: "/img/aila-logo.webp"
   cover: "/img/onondaga-lake-east-shoreline.webp"
   bio: "American Indian Law Alliance"
   info: "American Indian Law Alliance (AILA) is a non-profit organization that works with Indigenous Nations and peoples in the Americas to protect their sovereignty, human rights, and Mother Earth."
@@ -36,7 +36,7 @@
   image: "https://avatars.githubusercontent.com/u/22662978?v=4"
   bio: "Operations Manager & International Research Associate."
   info: "Adam DJ Brett, a scholar of religion and media, explores the intersections of faith, technology, and culture. His research delves into the complex relationships between Protestant Fundamentalism and mass media in the early 20th century."
-  cover: "/img/adamdjbrett-background2.jpg"
+  cover: "/img/adamdjbrett-background2.webp"
   intro: 
    title: "About"
    text: "Adam DJ Brett has been involved with the American Indian Law Alliance since 2016. He earned his Ph.D. in religion at Syracuse University, where he studied religion, media, and culture in the United States. As a student of religion, he is interested in the impact of the Doctrine of Discovery, religious freedom, and how religion gets understood through law. Through his deep love of technology, Adam facilitates conferences discussions, and panels. Adam is an integral part of AILA’s with the Global Indigenous Women’s Gathering, Global Indigenous Peoples Caucus, and the United Nations Permanent Forum on Indigenous Issues. He is dedicated to forwarding the advancement of sovereignty and self-determination for Indigenous nations and peoples."
@@ -55,7 +55,7 @@
 
 - key: bettyhill
   name: "Betty Hill (Lyons)"
-  image: "/img/Betty-Lyons-2020-225x300.jpg"
+  image: "/img/Betty-Lyons-2020-225x300.webp"
   cover: "/img/onondaga-lake-east-shoreline.webp"
   bio: "Executive Director "
   info: "Betty Hill (Lyons), President & Executive Director of the American Indian Law Alliance (AILA), is an Indigenous and environmental activist and citizen of the Onondaga Nation."
