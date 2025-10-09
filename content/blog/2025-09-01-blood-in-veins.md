@@ -5,6 +5,7 @@ description: The lake is sacred to the Onondaga, who have not had a foothold on
   a portion of its shore in nearly 200 years. The county has so far not been
   willing to give the Nation the land.
 date: 2025-09-01
+canonical_url: https://adamdjbrett.com
 authors:
   - aila
 image: /img/onondaga-lake-east-shoreline.webp
