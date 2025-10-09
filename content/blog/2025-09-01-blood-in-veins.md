@@ -1,14 +1,18 @@
 ---
-title: "‘The blood in our veins’: Onondagas reignite effort to win back Maple Bay, a foothold on Onondaga Lake"
-description: "The lake is sacred to the Onondaga, who have not had a foothold on a portion of its shore in nearly 200 years. The county has so far not been willing to give the Nation the land."
+show_table_of_content: false
+canonical_url: https://centralcurrent.org/the-blood-in-our-veins-onondagas-reignite-effort-to-win-back-maple-bay-a-foothold-on-onondaga-lake/
+title: "‘The blood in our veins’: Onondagas reignite effort to win back Maple
+  Bay, a foothold on Onondaga Lake"
+description: The lake is sacred to the Onondaga, who have not had a foothold on
+  a portion of its shore in nearly 200 years. The county has so far not been
+  willing to give the Nation the land.
+canoncial_url: https://centralcurrent.org/the-blood-in-our-veins-onondagas-reignite-effort-to-win-back-maple-bay-a-foothold-on-onondaga-lake/
 date: 2025-09-01
 authors:
   - aila
 image: /img/onondaga-lake-east-shoreline.webp
-show_table_of_content: false
 tags:
   - notes
-canonical_url: https://centralcurrent.org/the-blood-in-our-veins-onondagas-reignite-effort-to-win-back-maple-bay-a-foothold-on-onondaga-lake/
 ---
 <blockquote>
 When the Onondaga people stand on its shores and speak their language, Lyons says the lake responds; the fish leap from the water, the birds alight on the shores, the eagles circle overhead.
