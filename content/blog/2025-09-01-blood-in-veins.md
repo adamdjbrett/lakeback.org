@@ -8,6 +8,7 @@ image: /img/onondaga-lake-east-shoreline.webp
 show_table_of_content: false
 tags:
   - notes
+canonical_url: https://centralcurrent.org/the-blood-in-our-veins-onondagas-reignite-effort-to-win-back-maple-bay-a-foothold-on-onondaga-lake/
 ---
 <blockquote>
 When the Onondaga people stand on its shores and speak their language, Lyons says the lake responds; the fish leap from the water, the birds alight on the shores, the eagles circle overhead.
