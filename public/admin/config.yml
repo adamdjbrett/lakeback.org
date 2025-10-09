@@ -121,6 +121,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
+      - {label: "Canoncial URL", name: "canoncial_url", widget: "string" ,required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - label: "Authors"
         name: "authors"
@@ -209,7 +210,7 @@ collections:
             name: "metasocial"
             widget: "list"
             fields:
-              - {label: "Platform", name: "platform", widget: "select", options: ["facebook", "twitteruser", "twitter"]}
+              - {label: "Platform", name: "platform", widget: "select", options: ["facebook", "twitteruser", "twitter", "bsky"]}
               - {label: "URL/Username", name: "value", widget: "string"}
           - label: "Navigation Bar"
             name: "navbar"
