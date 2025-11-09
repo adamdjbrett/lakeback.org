@@ -19,3 +19,4 @@ We’ll explore how colonial legal doctrines still impact Indigenous lands today
 
 [🔗 Learn more or register / donate](https://givebutter.com/unravelingcolonization)
 
+[![Event Flyer](/img/unravellingcolonialism.webp)](https://givebutter.com/unravelingcolonization)
