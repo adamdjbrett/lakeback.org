@@ -17,7 +17,12 @@ permalink: /resources/
 
 ## Resources about Onondaga Lake
 
-* [Historical Ecology - Catherine Landis](https://onondagalakehistoricalecology.weebly.com/)
+- [Historical Ecology - Catherine Landis](https://onondagalakehistoricalecology.weebly.com/)
+-   Onondaga Nation, [The Onondaga Lake "Cleanup" Plan](https://www.onondaganation.org/land-rights/the-onondaga-lake-cleanup-plan/)
+-   US EPA, [Onondaga Lake Superfund](https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.cleanup&id=0203382)
+-   NY State Dept of Environmental Conservation, [Onondaga Lake Restoration](https://dec.ny.gov/news/press-releases/2025/6/dec-announces-onondaga-lake-restoration-milestone-transfer-of-visitor-center-to-state)
+-   Onondaga Country Office of the Environment, [Onondaga Lake Restoration](http://www.ongov.net/environment/lake.html)
+-   [Onondaga Lake Cleanup (Honeywell website)](http://www.lakecleanup.com/)
 
 ## Books
 
