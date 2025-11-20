@@ -20,6 +20,10 @@ export default async function(eleventyConfig) {
 		.addPassthroughCopy({
 			"./public/": "/"
 		})
+		// Explicitly copy favicon to root for https://lakeback.org/favicon.ico
+		.addPassthroughCopy({
+			"public/img/favicon/favicon.ico": "favicon.ico"
+		})
 		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
 	eleventyConfig.addBundle("css", {

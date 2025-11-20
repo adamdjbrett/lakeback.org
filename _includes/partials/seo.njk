@@ -17,8 +17,13 @@
 <meta content="{{ image or metadata.image }}" name="facebook:image">
 <meta content="{{ image or metadata.image }}" name="bsky:image">
 <meta content="{{ image or metadata.image }}" name="og:image">
-<link href="{{ metadata.favicon }}" rel="icon" type="image/x-icon">
-<link rel="apple-touch-icon" href="{{ metadata.favicon }}">
+<!-- Favicon and Apple Touch Icon -->
+<link rel="icon" type="image/png" href="/img/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/img/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/img/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="#LAKEBACK" />
+<link rel="manifest" href="/img/favicon/site.webmanifest" />
 <meta content="{{ metadata.metasocial[1].facebook }}" property="facebook:author">
 <meta content="{{ metadata.metasocial[2].twitteruser }}" property="twitter:author">
 <meta content="{{ metadata.metasocial[0].bsky }}" property="bsky:author">
