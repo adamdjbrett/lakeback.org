@@ -24,7 +24,7 @@ Published November 2025
 * [We of Italian and Syracuse Heritage (WISH)](https://wishcny.org)
 * [Democratic Socialists of America (DSA) - Syracuse]()
 
-![Map of Maple Bay. Taken From NOON website. Used with permission.](lakeback.org/public/img/noon-OnondagaLake-MapleBay4website.webp) 
+![Map of Maple Bay. Taken From NOON website. Used with permission.](l/img/noon-OnondagaLake-MapleBay4website.webp) 
 <small><em>Image description: A map showing the location of Maple Bay on the north shore of Onondaga Lake. The map was created by Neighbors of the Onondaga Nation (NOON).</em></small>
 
 ### **Lake Back & Land Back is healing.**

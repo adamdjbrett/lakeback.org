@@ -1,36 +1,112 @@
-<!-- make business -->
-<!-- add notes & I am the decision maker radio button -->
 <div class="my-5">
-<form action="https://formspree.io/f/xrbjjkdo" method="POST">
-<div class="form-floating">
-<input class="form-control" id="name" name="name" type="text" placeholder="Enter your name..." required />
-<label for="name">Name</label>
-<div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-</div>
-<div class="form-floating">
-<input class="form-control" id="email" type="email"  name="email" placeholder="Enter your email..." required />
-<label for="phone">Email Address</label>
-<div class="invalid-feedback" data-sb-feedback="email:required">A email address is required.</div>
-</div>
-<div class="form-floating">
-<input class="form-control" id="organization" type="text"  name="organization" placeholder="Organization..." required />
-<label for="phone">Organization</label>
-<div class="invalid-feedback" data-sb-feedback="email:required">A organization is required.</div>
-</div>
-<div class="form-floating">
-<textarea class="form-control" name="message" id="message" placeholder="Enter your message here..." style="height: 12rem" data-sb-validations="required"></textarea>
-<label for="message">Message</label>
-<div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-</div>
-<br />
-<div class="d-none" id="submitSuccessMessage">
-<div class="text-center mb-3">
-<h3>Thanks for your message !!</h3>
-</div>
-</div>
-<div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-<button class="btn btn-cta col-md-3 col-12" id="submitButton" type="submit">Send</button>
+<form action="https://formspree.io/f/mblwwybq" method="POST" novalidate>
+
+  <div class="form-floating mb-3">
+    <input class="form-control" id="name" name="name" type="text" placeholder="Enter your name..." required />
+    <label for="name">Name</label>
+    <div class="invalid-feedback">A name is required.</div>
+  </div>
+
+  <div class="form-floating mb-3">
+    <input class="form-control" id="email" type="email" name="email" placeholder="Enter your email..." required />
+    <label for="email">Email Address</label>
+    <div class="invalid-feedback">An email address is required.</div>
+  </div>
+
+  <div class="form-floating mb-3">
+    <input class="form-control" id="business" type="text" name="business" placeholder="Business..." required />
+    <label for="business">Business</label>
+    <div class="invalid-feedback">A business is required.</div>
+  </div>
+
+  <!-- Radio Button Field -->
+  <div class="mb-3">
+    <label class="form-label">I am the business decision maker:</label>
+
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="decision_maker" id="decision_yes" value="Yes" required>
+      <label class="form-check-label" for="decision_yes">Yes</label>
+      <div class="invalid-feedback">Please select an option.</div>
+    </div>
+
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="decision_maker" id="decision_no" value="No" required>
+      <label class="form-check-label" for="decision_no">No</label>
+    </div>
+  </div>
+
+  <!-- ZIP Code Field -->
+  <div class="form-floating mb-3">
+    <input 
+      class="form-control" 
+      id="zip" 
+      name="zip" 
+      type="text" 
+      inputmode="numeric" 
+      pattern="[0-9]{5}(-[0-9]{4})?" 
+      placeholder="ZIP Code" />
+    <label for="zip">What is your ZIP Code?</label>
+  </div>
+
+  <!-- Message Field -->
+  <div class="form-floating mb-3">
+    <textarea class="form-control" name="message" id="message" placeholder="Enter your message here..." style="height: 12rem" required></textarea>
+    <label for="message">Message</label>
+    <div class="invalid-feedback">A message is required.</div>
+  </div>
+
+  <!-- Notes Field with Live Character Counter -->
+  <div class="mb-3">
+    <div class="form-floating">
+      <textarea 
+        class="form-control" 
+        id="notes" 
+        name="notes" 
+        maxlength="350"
+        placeholder="Additional notes (350 characters max)"
+        style="height: 10rem"></textarea>
+
+      <label for="notes">Notes (350 characters max)</label>
+    </div>
+    <small id="notesCounter" class="text-muted">0 / 350</small>
+  </div>
+
+  <br />
+
+  <div class="d-none" id="submitSuccessMessage">
+    <div class="text-center mb-3">
+      <h3>Thanks for your message !!</h3>
+    </div>
+  </div>
+
+  <div class="d-none" id="submitErrorMessage">
+    <div class="text-center text-danger mb-3">Error sending message!</div>
+  </div>
+
+  <button class="btn btn-cta col-md-3 col-12" id="submitButton" type="submit">Send</button>
+
 </form>
 </div>
 
-{% include "partials/business-form.njk" %}
+<!-- Character Counter Script -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const notes = document.getElementById("notes");
+  const counter = document.getElementById("notesCounter");
+
+  notes.addEventListener("input", function () {
+    const currentLength = notes.value.length;
+    counter.textContent = `${currentLength} / 350`;
+  });
+
+  // Bootstrap validation for radio group
+  const form = document.querySelector("form");
+  form.addEventListener("submit", function (e) {
+    if (!form.checkValidity()) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    form.classList.add("was-validated");
+  });
+});
+</script>
