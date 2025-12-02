@@ -1,13 +1,21 @@
 <section class="container" aria-label="Information">
-<div class="row mt-5 mb-5">
-<div class="col-md-6 shadow"
-style=" background-image:url('{{info.image}}');">
-</div>
-<div class="col-md-6 p-3 p-md-5">
-<h3><a href="{{metadata.url}}" class="non">{{info.title}}</a></h3>
-<p>{{info.text}}</p>
-<p><a href="{{info.url}}" class="btn btn-cta">{{info.button}}</p>
-</div>
-</div>
-</div>
+	<div class="row mt-5 mb-5">
+		<div class="col-md-6 shadow" style="background-image:url('{{ info.image }}');">
+		</div>
+		<div class="col-md-6 p-3 p-md-5">
+			<h3><a href="{{ metadata.url }}" class="non">{{ info.title }}</a></h3>
+			<p>{{ info.text }}</p>
+			{% if info.buttons %}
+			<div class="info-buttons">
+				{% for button in info.buttons %}
+				<a href="{{ button.url }}" class="btn btn-cta info-button">{{ button.label }}</a>
+				{% endfor %}
+			</div>
+			{% elseif info.button and info.url %}
+			<div class="info-buttons">
+				<a href="{{ info.url }}" class="btn btn-cta info-button">{{ info.button }}</a>
+			</div>
+			{% endif %}
+		</div>
+	</div>
 </section>

@@ -239,6 +239,18 @@ a {color:inherit;font-weight:700;}
 
 .btn-cta {background-color:#299999;color:white;}
 .btn-cta:hover {background-color:#197F7F;color:white;}
+.info-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.info-buttons .btn-cta {
+  flex: 1 1 200px;
+  text-align: center;
+  padding: 0.75rem 1rem;
+}
 
 /* Untuk seluruh form */
 .form_15iP5 {
