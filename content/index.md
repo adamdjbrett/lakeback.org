@@ -17,7 +17,7 @@ info:
     - label: Sign on Letter for Businesses 
       url: /business/
     - label: Sign on Letter for Community Organizations
-      url: /orgnaization/
+      url: /coalition/
   image: /img/onondaga-lake-south-shoreline-700.webp
   text: We aim to restore the reciprocal relationship of mutual care amongst
     Onondaga Lake, all its inhabitants, and Onondaga Nation beginning with the
