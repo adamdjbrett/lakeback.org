@@ -46,3 +46,5 @@ March 2025 marked twenty years since Onondaga Nation launched the historic [Land
 <small><em>
 Image description: A map showing land loss of Haudenosaunee Nations. Their current territories are shown as small purple territories, spread out across so-called 'New York,' 'Canada,' and 'Wisconsin.' At the bottom of the image it lists the land loss by the numbers: Seneca's original territory was 6.5 million acres; today it is 56,213. Cayuga's original territory was 1.9 million acres; today it is 70 acres. Onondaga's original territory was 2.6 million acres; today it is 7,300 acres. Oneida's original territory was 3.7 million acres, today it is 32 acres + 10,000 reacquired. Mohawk's original territory was 9.9 million acres; today it is 14,640 acres. Tuscarora arrived in this region in 1713 and their current territory is 5,770 acres. *\[Note: Since this image was created thousands of additional acres have been regained by Haudesnoaunee Nations.\]*
 </em></small>
+
+{% include "partials/business-form.njk" %}

@@ -5,6 +5,8 @@ description: Are you a member of an organization that wants to join us in making
 image: /img/onondaga-lake-east-shoreline.webp
 show_table_of_content: false
 permalink: /coalition/
+redirect_from: 
+  - /organization/
 ---
 If your **organization** is interested in joining our coalition to support this effort, please fill out this form or email [aila@aila.ngo](mailto:aila@aila.ngo)
 
