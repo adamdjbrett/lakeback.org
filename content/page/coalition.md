@@ -25,7 +25,7 @@ Published November 2025
 * [Neighbors of the Onondaga Nation (NOON)](https://peacecouncil.net/noon)
 * [Syracuse Peace Council](https://peacecouncil.net)
 * [We of Italian and Syracuse Heritage (WISH)](https://wishcny.org)
-* [Democratic Socialists of America (DSA) - Syracuse]()
+* [Democratic Socialists of America (DSA) - Syracuse](https://syracusedsa.org/)
 
 ![Map of Maple Bay. Taken From NOON website. Used with permission.](/img/noon-OnondagaLake-MapleBay4website.webp) 
 <p><small><em>Image description: A map showing the location of Maple Bay on the north shore of Onondaga Lake. The map was created by Neighbors of the Onondaga Nation (NOON).</em></small></p>
