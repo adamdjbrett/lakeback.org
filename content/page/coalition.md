@@ -56,4 +56,4 @@ Image description: A map showing land loss of Haudenosaunee Nations. Their curre
 
 If your **organization** is interested in joining our coalition to support this effort, please fill out this form or email [aila@aila.ngo](mailto:aila@aila.ngo)
 
-{% include "partials/form_coalition.njk" %}
+{% include "partials/organization-form.njk" %}
