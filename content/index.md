@@ -12,8 +12,8 @@ information: Onondaga Lake is the birthplace of democracy, lacrosse, the women's
 info:
   title: Water is Life
   buttons:
-    - label: Email decision makers
-      url: https://aila.li/return
+    #- label: Email decision makers
+    #  url: https://aila.li/return
     - label: Sign on Letter for Businesses 
       url: /business/
     - label: Sign on Letter for Community Organizations

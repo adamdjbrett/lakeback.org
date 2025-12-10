@@ -15,4 +15,4 @@ Our friends at [Neighbors of Onondaga Nation - NOON](https://peacecouncil.net/no
 
 We ask that you take a moment and write to the Onondaga County Executive and ask him to honor the County's committment to return a piece of the lake to Onondaga Nation. 
 
-[Send a postcard](https://aila.li/return).
+<!--[Send a postcard](https://aila.li/return).-->
