@@ -29,6 +29,7 @@ Published November 2025
 
 ### Endorsing Individuals
  - Danielle Cable
+ - Andrew Condon
 
 ![Map of Maple Bay. Taken From NOON website. Used with permission.](/img/noon-OnondagaLake-MapleBay4website.webp) 
 <p><small><em>Image description: A map showing the location of Maple Bay on the north shore of Onondaga Lake. The map was created by Neighbors of the Onondaga Nation (NOON).</em></small></p>
