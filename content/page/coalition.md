@@ -26,6 +26,8 @@ Published November 2025
 * [Syracuse Peace Council](https://peacecouncil.net)
 * [We of Italian and Syracuse Heritage (WISH)](https://wishcny.org)
 * [Democratic Socialists of America (DSA) - Syracuse](https://syracusedsa.org/)
+* [Peace Action Le Moyne (PALM)](https://www.instagram.com/peaceaction_lemoyne/)
+* [BlackAtCuse](https://www.instagram.com/BlackAtCuse)
 
 ### Endorsing Individuals
  - Danielle Cable
