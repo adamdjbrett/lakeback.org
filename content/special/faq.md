@@ -48,9 +48,9 @@ faq:
       Bay.
 faq_end:
   title: "Map of Maple Bay"
-  image: "/img/unnamed-1-.webp"
+  image: "/img/onondaga-lake-east-shoreline.webp"
   alt: "Map of Maple Bay"
-  text: "Hello World"
+  text: "[Here is the map of Maple Bay](https://lakeback.org/blog/2024-02-19-where-is-maple-bay/)"
 permalink: /faq/
 ---
 {% include "partials/faq_post.njk" %}
