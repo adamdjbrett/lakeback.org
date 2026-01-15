@@ -18,7 +18,7 @@ faq:
     q: "What does #LakeBack mean?"
     a: "#Lakeback is a campaign to ensure that Maple Bay, on the shores of Onondaga
       Lake is returned to the Onondaga Nation. The County Legislature passed a
-      resolution to return Maple Bay in a [2016
+      resolution to support the return of a piece of land on teh shores of Onondaga Lake in a [2016
       resolution](/pdfs/Onondaga-land-transfer-committee-resolution-5-3-16.pdf),
       which replaced a previous County Legislature [resolution from
       2011](/pdfs/ongov-june-2011.pdf). Lake Back will restore the relationship
@@ -48,7 +48,7 @@ faq:
       Bay.
 faq_end:
   title: "Map of Maple Bay"
-  image: "/img/onondaga-lake-east-shoreline.webp"
+  image: "/img/noon-OnondagaLake-MapleBay4website.webp"
   alt: "Map of Maple Bay"
   text: "[Here is the map of Maple Bay](https://lakeback.org/blog/2024-02-19-where-is-maple-bay/)"
 permalink: /faq/
