@@ -46,6 +46,79 @@ faq:
       lake it provides some privacy for the people who gather there. Our sister
       organization NOON has made a wonderful map showing the location of Maple
       Bay.
+  - sort: 4
+    q: What is the goal of the Lake Back campaign?
+    a: "#LakeBack is a campaign to ensure that Maple Bay, on the shores of Onondaga
+      Lake, is returned to the Onondaga Nation. The Onondaga County Legislature
+      passed a resolution to return a piece of land on the shores of Onondaga
+      Lake in a [2016 resolution](/pdfs/Onondaga-land-transfer-committee-resolution-5-3-16.pdf),
+      which replaced a previous County Legislature [resolution from
+      2011](/pdfs/ongov-june-2011.pdf) which also committed to a land return.
+      Lake Back will restore the relationship between the Onondaga Nation and
+      sacred Onondaga Lake."
+  - sort: 5
+    q: Why focus on Onondaga Lake?
+    a: "The Onondaga Nation has a responsibility to care for all relatives, including
+      the earth, waters, and all beings. This is not ownership but a relationship
+      of reciprocal care. Onondaga Lake is deeply significant, as the birthplace
+      of the Haudenosaunee Confederacy, (which includes the Mohawk, Oneida,
+      Onondaga, Cayuga, Seneca, and Tuscarora Nations). This is where the Great
+      Law of Peace was introduced, the basis of the Haudenosaunee Confederacy
+      system of government. This is the world's oldest continuous democratic system."
+  - sort: 6
+    q: How does land return help clean up?
+    a: "This land return will allow the original caretakers of Onondaga Lake to have
+      a voice in the decision-making around the lake. The Onondaga Nation serves
+      as a representative in discussions on the cleanup of the natural world and
+      all living beings, especially as plants and animals are being ignored. The
+      need for ongoing cleanup is disregarded, and instead, deeply unpopular
+      projects such as the county-built aquarium on inlet to the Lake are
+      prioritized."
+  - sort: 7
+    q: What will this land be used for when it is returned to the Onondaga Nation?
+    a: "The Onondaga Nation intends to hold ceremonies and social gatherings at Maple
+      Bay. Ceremonies returning to the shores of Onondaga Lake, the birthplace
+      of the Haudenosaunee Confederacy, are very significant and also an important
+      part of healing Onondaga Lake. There is no intention to create commercial
+      developments on the Lake as suggested in some circulating rumors."
+  - sort: 8
+    q: Why aren't Indigenous lands taxed?
+    a: "This area has been Onondaga land for thousands of years, and continues to be
+      Onondaga land. Most of Onondaga County, including the city of Syracuse,
+      sits within the Onondaga Nation territory recognized in the 1794 Treaty of
+      Canandaigua. Therefore, the Nation does not have to pay taxes on lands it
+      is reacquiring.\n\nThere was no mention of taxes in the original resolution
+      from the County Legislature in 2011 and 2016. The current Onondaga County
+      Executive, Ryan McMahon, was the chair of the County Legislature at that
+      time and voted in favor of the land return resolution. Yet now taxes are
+      being raised as a tactic to prevent the land return."
+  - sort: 9
+    q: Why return Indigenous lands to Indigenous hands?
+    a: "According to the U.S. Constitution, Article VI, treaties are the supreme law
+      of the land. Honoring treaties is honoring the Constitution and being a good
+      neighbor to Indigenous Nations. Indigenous Peoples are the original caretakers
+      and recognized protectors of these lands under the treaties. We can all
+      appreciate how traditional ecological knowledge (TEK) can help us better
+      understand how to clean up and care for the lake."
+  - sort: 10
+    q: "I thought there was a treaty about the lake? Isn't the lake covered by the treaty?"
+    a: "Yes, the [1794 Treaty of Canandaigua](/issues/canandaigua-treaty-of-1794/)
+      is still in effect, and the county is in violation of it. According to the
+      treaty, the lake and the land around it belong to the Onondaga Nation. In
+      light of this major treaty violation, a small portion of the lake returned
+      is the least the county can do."
+  - sort: 11
+    q: What are some good examples of Land Back?
+    a: "There are many examples of land being returned to Indigenous Nations that are
+      happening all around Turtle Island [the 'United States' and 'Canada'] but
+      perhaps the most exciting one in our area is the return of over 1,000 acres
+      of land to [Onondaga Nation](https://www.onondaganation.org/news/2024/onondaga-nation-plans-a-wild-future-for-1000-acres-of-reclaimed-land/)
+      which took place in October 2024."
+  - sort: 12
+    q: How do I support this movement?
+    a: "Add your signature to one of our sign-on letters. We have letters for
+      organizations, businesses, and individuals. Contact us if you're interested
+      in becoming more actively involved. Also, you can join our email list!"
 faq_end:
   title: "Map of Maple Bay"
   image: "/img/noon-OnondagaLake-MapleBay4website.webp"
