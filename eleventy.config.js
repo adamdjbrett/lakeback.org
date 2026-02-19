@@ -6,7 +6,9 @@ import yaml from "js-yaml";
 import markdownIt from 'markdown-it';
 import markdownItAnchor from "markdown-it-anchor";
 import pluginFilters from "./_config/filters.js";
-import { execSync } from 'child_process';
+import { execFileSync } from "node:child_process";
+import { existsSync } from "node:fs";
+import path from "node:path";
 import pluginTOC from 'eleventy-plugin-toc';
 import CleanCSS from "clean-css";
 import { stripHtml } from "string-strip-html";
@@ -38,9 +40,25 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addFilter("cssmin", function (code) {
 		return new CleanCSS({}).minify(code).styles;
 	});
-    eleventyConfig.on('eleventy.after', () => {
-		execSync(`npx pagefind --site _site --glob \"**/*.html\"`, { encoding: 'utf-8' })
-	  })
+	eleventyConfig.on("eleventy.after", () => {
+		const pagefindBin = path.join(
+			process.cwd(),
+			"node_modules",
+			".bin",
+			process.platform === "win32" ? "pagefind.cmd" : "pagefind"
+		);
+
+		if (!existsSync(pagefindBin)) {
+			console.warn("[11ty] Skipping Pagefind: local binary not found.");
+			return;
+		}
+
+		try {
+			execFileSync(pagefindBin, ["--site", "_site", "--glob", "**/*.html"], { stdio: "inherit" });
+		} catch (error) {
+			console.warn("[11ty] Pagefind indexing failed; continuing build.");
+		}
+	});
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(HtmlBasePlugin);
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
