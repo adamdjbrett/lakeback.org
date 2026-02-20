@@ -1,29 +1,25 @@
 (() => {
-  const faqRoots = document.querySelectorAll('[data-faq-controls="true"]');
-  if (!faqRoots.length) return;
+    const expandBtn = document.querySelector('[data-faq-expand-all]');
+    const collapseBtn = document.querySelector('[data-faq-close-all]');
+    const items = document.querySelectorAll('#accordionFAQ .accordion-collapse');
+    const buttons = document.querySelectorAll('#accordionFAQ .accordion-button');
 
-  faqRoots.forEach((root) => {
-    const expandAllButton = root.querySelector('[data-faq-expand-all]');
-    const closeAllButton = root.querySelector('[data-faq-close-all]');
-    const collapseItems = root.querySelectorAll('.accordion-collapse');
+    if (!items.length) return;
 
-    if (!expandAllButton || !closeAllButton || !collapseItems.length) return;
-
-    const setOpenState = (open) => {
-      collapseItems.forEach((item) => {
-        item.classList.remove('collapsing');
-        item.classList.toggle('show', open);
-        item.style.height = '';
-        item.style.overflow = '';
-
-        const toggle = root.querySelector(`[data-bs-target="#${item.id}"]`);
-        if (!toggle) return;
-        toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-        toggle.classList.toggle('collapsed', !open);
-      });
+    const updateUI = (item, isOpen) => {
+        item.classList.toggle('show', isOpen);
+        const btn = document.querySelector(`[data-bs-target="#${item.id}"]`);
+        if (btn) {
+            btn.setAttribute('aria-expanded', isOpen);
+            btn.classList.toggle('collapsed', !isOpen);
+        }
     };
 
-    expandAllButton.addEventListener('click', () => setOpenState(true));
-    closeAllButton.addEventListener('click', () => setOpenState(false));
-  });
+    expandBtn?.addEventListener('click', () => {
+        items.forEach(item => updateUI(item, true));
+    });
+
+    collapseBtn?.addEventListener('click', () => {
+        items.forEach(item => updateUI(item, false));
+    });
 })();

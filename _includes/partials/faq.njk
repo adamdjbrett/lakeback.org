@@ -1,41 +1,43 @@
 <div class="accordion" id="accordionFAQ">
 <div class="accordion-item">
 <h2 class="accordion-header">
-<button class="accordion-button btn-cta" type="button" data-bs-toggle="collapse" aria-label="answer" data-bs-target="#collapseFAQ" aria-expanded="true" aria-controls="collapseOne">
-{{metadata.faq_active.q| md | safe}}
+<button class="accordion-button btn-cta" type="button" data-bs-toggle="collapse" 
+data-bs-target="#collapseFAQ" aria-expanded="true">
+{{ metadata.faq_active.q | md | safe }}
 </button>
 </h2>
-<div id="collapseFAQ" class="accordion-collapse collapse show" aria-label="question">
+<div id="collapseFAQ" class="accordion-collapse collapse show" data-bs-parent="#accordionFAQ">
 <div class="accordion-body">
-{{metadata.faq_active.a| md | safe}}
+{{ metadata.faq_active.a | md | safe }}
 </div>
 </div>
 </div>
 {% for fa in metadata.faq %}
 <div class="accordion-item">
 <h2 class="accordion-header">
-<button class="accordion-button collapsed btn-cta" type="button" aria-label="answer" data-bs-toggle="collapse" data-bs-target="#collapse{{fa.sort}}" aria-expanded="false" aria-controls="collapse{{fa.sort}}">
-{{fa.q| md | safe}}
+<button class="accordion-button collapsed btn-cta" type="button" data-bs-toggle="collapse" 
+data-bs-target="#collapse{{ fa.sort }}" aria-expanded="false">
+{{ fa.q | md | safe }}
 </button>
 </h2>
-<div id="collapse{{fa.sort}}" class="accordion-collapse collapse" aria-label="question">
+<div id="collapse{{ fa.sort }}" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
 <div class="accordion-body">
-{{fa.a| md | safe}}
+{{ fa.a | md | safe }}
 </div>
 </div>
 </div>
 {% endfor %}
 <div class="accordion-item">
 <h2 class="accordion-header">
-<button class="accordion-button collapsed btn-cta" type="button" data-bs-toggle="collapse" aria-label="answer" data-bs-target="#collapseFAQImage" aria-expanded="true" aria-controls="collapseEnd">
-{{metadata.faq_end.title| md | safe}}
+<button class="accordion-button collapsed btn-cta" type="button" data-bs-toggle="collapse" 
+data-bs-target="#collapseFAQImage" aria-expanded="false">
+{{ metadata.faq_end.title | md | safe }}
 </button>
 </h2>
-<div id="collapseFAQImage" class="accordion-collapse collapse" aria-label="question">
+<div id="collapseFAQImage" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
 <div class="accordion-body">
-<img class="img-fluid shadow-sm rounded mb-3" alt="{{metadata.faq_end.alt}}" src="{{metadata.faq_end.image}}" loading="lazy"/>
-{{metadata.faq_end.text| md | safe}}
-</div>
+<img class="img-fluid shadow-sm rounded mb-3" alt="{{ metadata.faq_end.alt }}" src="{{ metadata.faq_end.image }}" loading="lazy"/>
+{{ metadata.faq_end.text | md | safe }}
 </div>
 </div>
 </div>
