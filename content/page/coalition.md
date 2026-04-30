@@ -28,6 +28,7 @@ Published November 2025
 * [Democratic Socialists of America (DSA) - Syracuse](https://syracusedsa.org/)
 * [Peace Action Le Moyne (PALM)](https://www.instagram.com/peaceaction_lemoyne/)
 * [BlackAtCuse](https://www.instagram.com/BlackAtCuse)
+* [Free Indigenous People - Stronghold Justice and Treaty Alliance]()
 
 ### Endorsing Individuals
  - Danielle Cable
