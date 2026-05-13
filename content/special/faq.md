@@ -13,6 +13,7 @@ faq_active:
     -Sharing what we have with others
     -Maintaining drinkable water
     -Caring for native wildlife to ensure their good health
+    -[Download the FAQ as a PDF](/pdfs/maple-bay-faq.pdf)
 faq:
   - sort: 1
     q: "What does #LakeBack mean?"
@@ -127,3 +128,5 @@ faq_end:
 permalink: /faq/
 ---
 {% include "partials/faq_post.njk" %}
+
+[Download the FAQ as a PDF](/pdfs/maple-bay-faq.pdf)
