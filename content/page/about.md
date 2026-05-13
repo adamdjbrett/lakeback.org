@@ -5,9 +5,6 @@ image: /img/onondaga-lake-east-shoreline.webp
 show_table_of_content: false
 permalink: /about/
 ---
-
-
-
 Welcome to the website of the campaign to Return Maple Bay ~ Restore Our Sacred Onondaga Lake. This campaign aims to return Maple Bay to the Onondaga Nation and heal the reciprocal relationship between the Lake and Onondaga Nation. We are calling for #Lakeback.
 
 The Onondaga County Legislature passed two resolutions committing to this shared goal of land return on the shores of Onondaga Lake, first in 2011 and then again in 2016. We’re calling on the County Legislature to fulfill this commitment.
@@ -22,3 +19,5 @@ Over 1,000 years ago, on the shores of the pristine Onondaga Lake, our Peacemake
 The Onondaga were made the central fire, the capital of the Confederacy, by the Peacemaker. Today the Onondaga is the only Indigenous Nation in the United States with sovereignty --- our land is not part of the United States or in a trust held by the government, but is entirely under our control. We travel on our own Haudenosaunee passports, the only Indigenous Nation in all the US to do so. Our status and intact matrilineal governance has provided us a unique leadership role among Indigenous Peoples on Turtle Island. We've been at the forefront of the global struggle for Indigenous sovereignty. AILA was formed by Onondaga leaders as an independent NGO to navigate colonial legal systems in our ongoing struggle for sovereignty. AILA is independent of the Nation's governance and maintains a Board who can support the mission to advance Indigenous sovereignty for all, not just the Onondaga. 
 
 Our history is rarely told, let alone honored. Instead, colonial powers have sought to minimize and diminish these truths to justify their violence and greed. Industry polluted the lake without consequence throughout the 19th and 20th centuries, and today the sacred and essential waters of Onondaga Lake are a superfund site. Our plan is to protect the lake from further pollution and development by building a strong collaborative of institutions dedicated to  preserving and protecting the lake, with an emphasis on Maple Bay, a portion of the lake on the Northwest shore.
+
+[Download the FAQ as a PDF](/pdfs/maple-bay-faq.pdf)
