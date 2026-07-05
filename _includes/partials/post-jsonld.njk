@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": {{ (post_jsonld_url ~ "#article") | dump | safe }},
+  "name": {{ post_jsonld_title | dump | safe }},
+  "headline": {{ post_jsonld_title | dump | safe }},
+  "description": {{ post_jsonld_description | dump | safe }},
+  "url": {{ post_jsonld_url | dump | safe }},
+  "inLanguage": {{ (post_jsonld_language or metadata.language or "en") | dump | safe }},
+  "identifier": {{ post_jsonld_identifier | dump | safe }},
+  "datePublished": {{ post_jsonld_date_published | dump | safe }},
+  "dateModified": {{ post_jsonld_date_modified | dump | safe }},
+  "image": {{ post_jsonld_image | dump | safe }},
+  "author": {
+    "@type": "Person",
+    "name": {{ metadata.author.name | dump | safe }},
+    "url": {{ metadata.author.url | dump | safe }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "American Indian Law Alliance",
+    "url": "https://aila.ngo/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": {{ (metadata.url ~ "/blog/") | dump | safe }},
+    "name": {{ metadata.title | dump | safe }},
+    "url": {{ (metadata.url ~ "/blog/") | dump | safe }}
+  }{% if post_jsonld_citations and post_jsonld_citations.length %},
+  "citation": {{ post_jsonld_citations | dump | safe }}{% endif %}
+}

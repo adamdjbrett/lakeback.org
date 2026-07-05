@@ -1,0 +1,26 @@
+---
+permalink: /metadata.json
+layout: null
+eleventyExcludeFromCollections: true
+---
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "{{ metadata.url }}/#website",
+  "name": {{ metadata.title | dump | safe }},
+  "description": {{ metadata.description | dump | safe }},
+  "url": {{ metadata.url | dump | safe }},
+  "inLanguage": {{ metadata.language | dump | safe }},
+  "publisher": {
+    "@type": "Organization",
+    "name": "American Indian Law Alliance",
+    "url": "https://aila.ngo/"
+  },
+  "about": {
+    "@type": "Thing",
+    "name": "Onondaga Lake #Lakeback"
+  },
+  "sameAs": [
+    "https://aila.ngo/"
+  ]
+}

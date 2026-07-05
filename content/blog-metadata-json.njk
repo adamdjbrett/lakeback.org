@@ -1,0 +1,21 @@
+---
+pagination:
+  data: collections.posts
+  size: 1
+  alias: post
+permalink: "{{ post.url }}metadata.json"
+layout: null
+eleventyExcludeFromCollections: true
+---
+{% set postData = post.data %}
+{% set post_jsonld_title = postData.title or metadata.title %}
+{% set post_jsonld_description = postData.description or metadata.description %}
+{% set post_jsonld_url = postData.canonical_url or (metadata.url ~ post.url) %}
+{% set post_jsonld_identifier = postData.doi or postData.canonical_url or (metadata.url ~ post.url) %}
+{% set post_jsonld_image = postData.image or metadata.image or metadata.favicon %}
+{% if post_jsonld_image and "http" not in post_jsonld_image %}{% set post_jsonld_image = metadata.url ~ post_jsonld_image %}{% endif %}
+{% set post_jsonld_date_published = (postData.date or post.date) | htmlDateString %}
+{% set post_jsonld_date_modified = (postData.updated or postData.date or post.date) | htmlDateString %}
+{% set post_jsonld_language = postData.language or metadata.language %}
+{% set post_jsonld_citations = postData.citations %}
+{% include "partials/post-jsonld.njk" %}
