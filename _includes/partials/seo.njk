@@ -32,17 +32,19 @@
 <meta property="og:type" content="website">
 {% set canonicalHref = canonical_url or (metadata.url ~ page.url) %}
 {% if canonical_url %}<link rel="canonical" href="{{ canonical_url}}"/>{% else %}<link rel="canonical" href="{{ metadata.url }}{{ page.url }}"/>{% endif %}
-{% if page.url and page.url.startsWith('/blog/') and page.url != '/blog/' %}
+{% if page.url and page.url.startsWith('/blog/') and not pagination %}
 <link rel="cite-as" href="{{ canonicalHref }}">
 <link rel="type" href="https://schema.org/BlogPosting">
 <link rel="author" href="{{ metadata.author.url }}">
 <link rel="describedby" type="application/ld+json" profile="https://schema.org/" href="{{ page.url }}metadata.json">
 <meta property="zotero:itemType" content="blogPost">
-<meta name="citation_title" content="{{ title or metadata.title }}">
-<meta name="citation_author" content="{{ metadata.author.name }}">
+{% if authors %}{% for authorKey in authors %}{% set author = authors | getAuthor(authorKey) %}{% if author %}<meta name="citation_author" content="{{ author.name }}">
+{% endif %}{% endfor %}{% else %}<meta name="citation_author" content="{{ metadata.author.name }}">
+{% endif %}
 {% if date %}<meta name="citation_publication_date" content="{{ date | htmlDateString }}">{% endif %}
 <meta name="citation_public_url" content="{{ canonicalHref }}">
 <meta name="citation_language" content="{{ metadata.language or 'en' }}">
+<meta name="prism.publicationName" content="{{ metadata.title }}">
 {% else %}
 <link rel="describedby" type="application/ld+json" profile="https://schema.org/" href="/metadata.json">
 {% endif %}
