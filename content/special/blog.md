@@ -4,7 +4,7 @@ description: Updates on Restoring Maple Bay
 layout: blog.njk
 pagination:
   data: collections.posts
-  size: 4
+  size: 6
   reverse: true
 testdata:
  - item1
