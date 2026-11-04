@@ -22,6 +22,7 @@ Published November 2025
 * [Syracuse Cultural Workers](https://syracuseculturalworkers.com/)
 * [Meet Cute Events](https://www.instagram.com/meet.cute.events/)
 * C. Peregrine Photography
+* [Our Voices Project LLC](https://www.ourvoicesproject.com/)
 
 ![Map of Maple Bay. Taken From NOON website. Used with permission.](/img/noon-OnondagaLake-MapleBay4website.webp) 
 <p><small><em>Image description: A map showing the location of Maple Bay on the north shore of Onondaga Lake. The map was created by Neighbors of the Onondaga Nation (NOON).</em></small></p>
