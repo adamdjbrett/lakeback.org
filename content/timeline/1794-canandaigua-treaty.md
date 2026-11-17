@@ -1,5 +1,5 @@
 ---
-title: The Canandaigua Treaty is Agreed to Between the United States of American
+title: The Canandaigua Treaty is Agreed to Between the United States of America
   and the Haudenosaunee Confederacy
 description: After the US gained independence from Britain, they entered into a
   treaty with the Haudenosaunee Confederacy of Six Nations, establishing peace

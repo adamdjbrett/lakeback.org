@@ -1,5 +1,5 @@
 ---
-title: Two Wampum Treaty Agreed to Between the Haudenosaunee and the Dutch
+title: Two Row Wampum Treaty Agreed to Between the Haudenosaunee and the Dutch
 description: Gaswéñdah, the Two Row Wampum Treaty, was the first treaty
   agreement made between the Haudenosaunee Confederacy of Nations and a European
   government. This treaty is part of a long history of treaties embodied in
@@ -8,7 +8,7 @@ description: Gaswéñdah, the Two Row Wampum Treaty, was the first treaty
   Haudenosaunee are brothers traveling down the river of life together in peace
   forever- one in their ship and the other in their canoe- and that they would
   not step into one another’s vessel to disrupt it. The Treaty of Canandaigua
-  (see 1794 on timeline below) made with George Washington build from the
+  (see 1794 on timeline below) made with George Washington builds on the
   agreements of the Two Row Wampum.
 date: 2025-02-02
 image: /img/placeholder/600x200-dddddd.gif
