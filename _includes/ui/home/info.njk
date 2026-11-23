@@ -6,9 +6,10 @@
 			<h3><a href="{{ metadata.url }}" class="non">{{ info.title }}</a></h3>
 			<p>{{ info.text }}</p>
 			{% if info.buttons %}
+			{% if info.buttonsHeading %}<h4>{{ info.buttonsHeading }}</h4>{% endif %}
 			<div class="info-buttons">
 				{% for button in info.buttons %}
-				<a href="{{ button.url }}" class="btn btn-cta info-button">{{ button.label }}</a>
+				<a href="{{ button.url }}" class="btn btn-cta info-button"{% if info.buttonsHeading %} aria-label="{{ info.buttonsHeading }} for {{ button.label }}"{% endif %}>{{ button.label }}</a>
 				{% endfor %}
 			</div>
 			{% elseif info.button and info.url %}
