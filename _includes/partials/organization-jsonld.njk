@@ -1,0 +1,12 @@
+{%- set org = metadata.organization -%}
+{
+    "@type": "Organization",
+    "@id": {{ (org.url ~ "#organization") | dump | safe }},
+    "name": {{ org.name | dump | safe }},
+    "alternateName": {{ org.alternate_name | dump | safe }},
+    "url": {{ org.url | dump | safe }},
+    "logo": {{ (metadata.url ~ org.logo) | dump | safe }},
+    "email": {{ org.email | dump | safe }},
+    "description": {{ org.description | dump | safe }},
+    "sameAs": {{ org.same_as | dump | safe }}
+  }

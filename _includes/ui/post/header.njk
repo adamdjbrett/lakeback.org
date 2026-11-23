@@ -6,11 +6,11 @@ url('{{image or metadata.image}}');" {% endif %}
 aria-label="header">
 <div class="px-4 py-5 my-5 text-center">
 <h1 class="display-5 mt-5 fw-bold header_title text-body-emphasis"
-><a href="{{page.url}}" class="text-white non">{{title or metadata.title}}</a></h1>
+><a href="{{page.url}}" class="text-white non p-name u-url">{{title or metadata.title}}</a></h1>
 <div class="col-lg-8 mx-auto mt-5 mb-5">
-<h2 class="lead mb-4">{{description or metadata.description}}</h2>
+<h2 class="lead mb-4 p-summary">{{description or metadata.description}}</h2>
 <p class="mt-5">{% if tags %}{%- for tag in tags | filterTagList %}{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-<a href="{{ tagUrl }}" class="text-white">{{ tag }}</a>{%- if not loop.last %}, {% endif %}{%- endfor %}{% endif %}</p>
+<a href="{{ tagUrl }}" class="text-white p-category">{{ tag }}</a>{%- if not loop.last %}, {% endif %}{%- endfor %}{% endif %}</p>
 </div>
 </div>
 </header>

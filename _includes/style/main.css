@@ -65,6 +65,7 @@ img,iframe,.btn,button,.form-control,.form-select,.dropdown-menu {
 border-radius: 0;
 }
 img,iframe {max-width:100%;}
+.podcast-player iframe {display:block;width:100%;height:375px;border:0;}
 .custom-nav-pills .nav-link {
   border-radius: 0;
   background-color: var(--bs-tertiary-bg);

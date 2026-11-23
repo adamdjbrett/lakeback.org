@@ -8,8 +8,18 @@ A new version of lakeback website | Project by [Adam Dj Brett](https://www.adamd
 
 For Project and Information Contact : info@adamdjbrett.com
 
+## Run locally
+
+```sh
+npm install
+npm run dev     # serves http://localhost:8080 and opens it in the browser
+npm run build   # writes _site/
+```
+
+`@awesome.me/buildawesome` is pinned exactly: its `latest` tag is a placeholder, so upgrade with `npm install @awesome.me/buildawesome@alpha --save-exact`.
+
 Features: 
-+ 11ty New Version V.3
++ Build Awesome (Eleventy v4) `4.0.0-alpha.12`
 + Minimalist Concept
 + Dark Mode
 + Light Mode

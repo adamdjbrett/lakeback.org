@@ -2,10 +2,10 @@
 {% if authors %}<p> Publish By 
 {% for authorKey in authors %}{% set author = authors | getAuthor(authorKey) %}
 {% if author %}
-<span class="ms-2 me-2"><img class="img_profile me-1" width="100%" height="100%" alt="{{ author.name }}" loading="lazy"
+<span class="ms-2 me-2 p-author h-card"><img class="img_profile me-1 u-photo" width="100%" height="100%" alt="{{ author.name }}" loading="lazy"
 src="{{ author.image }}"/>
-<a href="/authors/{{ author.key }}/">{{ author.name }}</a></span>{% if not loop.last %} {% endif %}
+<a class="p-name u-url" href="/authors/{{ author.key }}/">{{ author.name }}</a></span>{% if not loop.last %} {% endif %}
 {% endif %}{% endfor %}{% endif %}
-<span>on <time class="postlist-date" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("dd LLLL yyyy") }}</time></p>
+<span>on <time class="postlist-date dt-published" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("dd LLLL yyyy") }}</time></p>
 </p>
 </div>

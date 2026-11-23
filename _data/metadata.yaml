@@ -3,6 +3,8 @@ description: "Heal the Reciprocal Relationship Between the Lake and Onondaga Nat
 language: "en"
 locale: en_US
 image: 
+# ponytail: social-card fallback only; `image` stays empty so pages without one keep their plain hero
+og_image: /img/onondaga-lake-south-shoreline.webp
 favicon: /logos.webp
 #url: "http://localhost:8080"
 url: "https://lakeback.org"
@@ -28,6 +30,8 @@ navbar:
     url: /search/  
   - nav: Timeline
     url: /timeline/
+  - nav: Podcast
+    url: https://podcast.lakeback.org
  nav_dropdown:
   title: Menu
   item: 
@@ -90,10 +94,54 @@ footer:
     url: /contact/  
 
 
+podcast:
+ title: "Healing the Sacred"
+ subtitle: "Restoring Onondaga Lake through Story, Ceremony, and Public Scholarship"
+ url: https://podcast.lakeback.org
+ buzzsprout_id: "2667694"
+ feed: https://feeds.buzzsprout.com/2667694.rss
+ # directory listings (from Buzzsprout > Directories); add Amazon Music, Pocket Casts, YouTube once listed
+ same_as:
+  - https://podcasts.apple.com/us/podcast/healing-the-sacred/id6838173635
+  - https://open.spotify.com/show/65Tj23KRuMYTJJFxhJkY5n
+  - https://www.iheart.com/podcast/953-healing-the-sacred-350604028/
+  - https://podcastindex.org/podcast/8126159
+  - https://www.listennotes.com/podcasts/healing-the-sacred-american-indian-law-YlGn_XgM3cE/
+  - https://castbox.fm/vic/6838173635
+  - https://overcast.fm/itunes6838173635
+  - https://podcastaddict.com/podcast/healing-the-sacred/7388092
+  - https://www.deezer.com/show/1003785271
+  - https://www.podchaser.com/podcasts/healing-the-sacred-6684909
+  - https://player.fm/series/series-3768423
+  - https://castro.fm/itunes/6838173635
+  - https://www.goodpods.com/podcasts-aid/6838173635
+  - https://truefans.fm/9b5206e1-7ddf-5780-a901-bfaad18d7e3b
+
+organization:
+ name: "American Indian Law Alliance"
+ alternate_name: "AILA"
+ url: https://aila.ngo/
+ logo: /img/aila-logo.webp
+ email: "aila@aila.ngo"
+ description: "American Indian Law Alliance (AILA) is a non-profit organization that works with Indigenous Nations and peoples in the Americas to protect their sovereignty, human rights, and Mother Earth."
+ same_as:
+  - https://aila.ngo/
+  - https://lakeback.org/
+  - https://podcast.lakeback.org/
+  - https://bsky.app/profile/aila.social
+  - https://www.facebook.com/americanindianlawalliance
+  - https://x.com/ailanyc
+  - https://www.instagram.com/americanindianlawalliance/
+  - https://www.linkedin.com/company/american-indian-law-alliance/
+  - https://www.youtube.com/@aila-ngo
+
 copyrights: 
- text1: A Project by The
+ text1: A project and program of the
  text2: American Indian Law Alliance
  text2_url: https://aila.ngo
+ text3: Listen to our podcast
+ text4: Healing the Sacred
+ text4_url: https://podcast.lakeback.org
 
 author: 
  name: "Betty Lyons"

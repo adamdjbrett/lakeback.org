@@ -1,0 +1,12 @@
+{%- set pod = metadata.podcast -%}
+<section class="container" aria-labelledby="podcast-heading">
+<div class="row mt-5 mb-5">
+<div class="col-md-10 mx-auto p-3 p-md-5">
+<h3 id="podcast-heading"><a href="{{ pod.url }}" class="non">{{ pod.title }}</a></h3>
+<p>{{ pod.subtitle }}. <a href="{{ pod.url }}">Visit the podcast site</a>.</p>
+<div class="podcast-player">
+<iframe src="https://www.buzzsprout.com/{{ pod.buzzsprout_id }}?client_source=large_player&amp;iframe=true" title="{{ pod.title }} podcast player" loading="lazy" scrolling="no"></iframe>
+</div>
+</div>
+</div>
+</section>

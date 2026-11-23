@@ -4,12 +4,13 @@
   "description": "11ty lakeback by Adam Dj Brett",
   "type": "module",
   "scripts": {
-    "build": "npx @11ty/eleventy",
-    "build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
-    "start": "npx @11ty/eleventy --serve --quiet",
-    "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
-    "debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
-    "benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
+    "build": "buildawesome",
+    "build-nocolor": "NODE_DISABLE_COLORS=1 buildawesome",
+    "dev": "buildawesome --serve --port=8080 & until curl -s -o /dev/null http://localhost:8080; do sleep 0.5; done; open http://localhost:8080; wait",
+    "start": "buildawesome --serve --quiet --port=8080",
+    "debug": "DEBUG='Eleventy*' node node_modules/@awesome.me/buildawesome/cmd.js",
+    "debugstart": "DEBUG='Eleventy*' node node_modules/@awesome.me/buildawesome/cmd.js --serve --quiet --port=8080",
+    "benchmark": "DEBUG='Eleventy:Benchmark*' node node_modules/@awesome.me/buildawesome/cmd.js"
   },
   "repository": {
     "type": "git",
@@ -26,18 +27,17 @@
     "npm": ">=11.14.0"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.6",
-    "@11ty/eleventy-img": "6.0.4",
     "@11ty/eleventy-navigation": "1.0.5",
     "@11ty/eleventy-plugin-rss": "2.0.4",
     "@11ty/eleventy-plugin-syntaxhighlight": "5.0.2",
+    "js-yaml": "5.5.0",
     "luxon": "3.7.2",
     "markdown-it": "^14.2.0",
-    "zod": "4.3.6",
+    "zod": "4.6.7",
     "zod-validation-error": "5.0.0"
   },
   "dependencies": {
-    "@11ty/eleventy-upgrade-help": "3.0.2",
+    "@awesome.me/buildawesome": "4.0.0-alpha.12",
     "@zachleat/heading-anchors": "1.0.5",
     "clean-css": "5.3.3",
     "eleventy-plugin-toc": "1.1.5",
@@ -45,8 +45,5 @@
     "pagefind": "1.4.0",
     "string-strip-html": "13.5.3"
   },
-  "packageManager": "npm@11.14.0",
-  "overrides": {
-    "undici": "~7.28.0"
-  }
+  "packageManager": "npm@11.14.0"
 }

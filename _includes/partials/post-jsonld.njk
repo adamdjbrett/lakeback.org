@@ -16,11 +16,7 @@
     "name": {{ metadata.author.name | dump | safe }},
     "url": {{ metadata.author.url | dump | safe }}
   },
-  "publisher": {
-    "@type": "Organization",
-    "name": "American Indian Law Alliance",
-    "url": "https://aila.ngo/"
-  },
+  "publisher": {% include "partials/organization-jsonld.njk" %},
   "isPartOf": {
     "@type": "Blog",
     "@id": {{ (metadata.url ~ "/blog/") | dump | safe }},

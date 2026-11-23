@@ -1,0 +1,39 @@
+{%- set orgId = metadata.organization.url ~ "#organization" -%}
+{%- set projectId = metadata.url ~ "/#project" -%}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+  {% include "partials/organization-jsonld.njk" %},
+  {
+    "@type": "Project",
+    "@id": {{ projectId | dump | safe }},
+    "name": {{ metadata.title | dump | safe }},
+    "alternateName": "#Lakeback",
+    "description": {{ metadata.description | dump | safe }},
+    "url": {{ (metadata.url ~ "/") | dump | safe }},
+    "parentOrganization": { "@id": {{ orgId | dump | safe }} }
+  },
+  {
+    "@type": "WebSite",
+    "@id": {{ (metadata.url ~ "/#website") | dump | safe }},
+    "name": {{ metadata.title | dump | safe }},
+    "description": {{ metadata.description | dump | safe }},
+    "url": {{ (metadata.url ~ "/") | dump | safe }},
+    "inLanguage": {{ metadata.language | dump | safe }},
+    "about": { "@id": {{ projectId | dump | safe }} },
+    "publisher": { "@id": {{ orgId | dump | safe }} }
+  },
+  {
+    "@type": "PodcastSeries",
+    "@id": {{ (metadata.podcast.url ~ "/#podcast") | dump | safe }},
+    "name": {{ metadata.podcast.title | dump | safe }},
+    "description": {{ metadata.podcast.subtitle | dump | safe }},
+    "url": {{ metadata.podcast.url | dump | safe }},
+    "webFeed": {{ metadata.podcast.feed | dump | safe }},
+    "sameAs": {{ metadata.podcast.same_as | dump | safe }},
+    "inLanguage": {{ metadata.language | dump | safe }},
+    "about": { "@id": {{ projectId | dump | safe }} },
+    "publisher": { "@id": {{ orgId | dump | safe }} }
+  }
+  ]
+}

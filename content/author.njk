@@ -8,6 +8,8 @@ permalink: "authors/{{ author.key }}/"
 eleventyComputed:
   title: "{{ author.name }}"
 ---
+<div class="h-card">
 {% include "ui/author/header.njk" %}
 {% include "ui/author/main.njk" %}
+</div>
 {% include "ui/author/article.njk" %}

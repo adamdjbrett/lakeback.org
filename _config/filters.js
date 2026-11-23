@@ -1,14 +1,26 @@
 import { DateTime } from "luxon";
+import { existsSync } from "node:fs";
 
 export default function(eleventyConfig) {
+	// Social-card image: skip placeholders, prefer a .jpg sibling of a .webp (not every scraper reads webp)
+	eleventyConfig.addFilter("ogImage", (img, fallback) => {
+		if (!img || img.includes("/placeholder/")) img = fallback;
+		if (!img || /^https?:/.test(img)) return img;
+		const jpg = img.replace(/\.webp$/, ".jpg");
+		return jpg !== img && existsSync(`public${jpg}`) ? jpg : img;
+	});
+	// Build Awesome's YAML (js-yaml 5) leaves front-matter dates as strings; page.date is still a Date
+	const toDateTime = (d, zone = "utc") =>
+		d instanceof Date ? DateTime.fromJSDate(d, { zone }) : DateTime.fromISO(String(d), { zone });
+
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
 		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
-		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "dd LLLL yyyy");
+		return toDateTime(dateObj, zone || "utc").toFormat(format || "dd LLLL yyyy");
 	});
 
 	eleventyConfig.addFilter("htmlDateString", (dateObj) => {
 		// dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-		return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat('yyyy-LL-dd');
+		return toDateTime(dateObj).toFormat('yyyy-LL-dd');
 	});
 
   eleventyConfig.addNunjucksFilter("limit", (arr, limit) => arr.slice(0, limit));
