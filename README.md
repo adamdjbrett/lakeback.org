@@ -1,3 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2919169f-daeb-4fcc-9a7c-ab71da318e03/deploy-status)](https://app.netlify.com/projects/lakeback/deploys)
+
+[#lakeback](https://lakeback.org) \| [podcast](https://podcast.lakeback.org)
+
 # CHANGELOG
 1. Add all pages to nav and/or footer
 
