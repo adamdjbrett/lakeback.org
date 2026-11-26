@@ -1,0 +1,277 @@
+{
+  "@type": "PodcastSeries",
+  "@id": "https://podcast.lakeback.org/#podcast",
+  "url": "https://podcast.lakeback.org/",
+  "name": "Healing the Sacred",
+  "alternativeHeadline": "Restoring Onondaga Lake through Story, Ceremony, and Public Scholarship",
+  "description": "Healing the Sacred is an eleven-episode limited series from the American Indian Law Alliance on restoring Onondaga Lake through story, ceremony, and public scholarship.",
+  "inLanguage": "en",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://podcast.lakeback.org/assets/images/template/cover-3000.jpg",
+    "contentUrl": "https://podcast.lakeback.org/assets/images/template/cover-3000.jpg",
+    "width": 3000,
+    "height": 3000,
+    "encodingFormat": "image/jpeg",
+    "caption": "Healing the Sacred: Restoring Onondaga Lake through Story, Ceremony, and Public Scholarship, lettered in gold over fish and an eel swimming through the teal water of Onondaga Lake.",
+    "creditText": "Victoria Dickerson"
+  },
+  "webFeed": "https://feeds.buzzsprout.com/2667694.rss",
+  "sameAs": [
+    "https://podcasts.apple.com/us/podcast/healing-the-sacred/id6838173635",
+    "https://open.spotify.com/show/65Tj23KRuMYTJJFxhJkY5n",
+    "https://www.youtube.com/playlist?list=PLE98CAQgldhg",
+    "https://www.iheart.com/podcast/953-healing-the-sacred-350604028/",
+    "https://overcast.fm/itunes6838173635",
+    "https://castro.fm/itunes/6838173635",
+    "https://podcastaddict.com/podcast/healing-the-sacred/7388092",
+    "https://castbox.fm/vic/6838173635",
+    "https://www.deezer.com/show/1003785271",
+    "https://player.fm/series/series-3768423",
+    "https://www.goodpods.com/podcasts-aid/6838173635",
+    "https://www.podchaser.com/podcasts/healing-the-sacred-6684909",
+    "https://podcastindex.org/podcast/8126159",
+    "https://truefans.fm/9b5206e1-7ddf-5780-a901-bfaad18d7e3b",
+    "https://www.listennotes.com/podcasts/healing-the-sacred-american-indian-law-YlGn_XgM3cE/"
+  ],
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "podcast:guid",
+    "value": "9b5206e1-7ddf-5780-a901-bfaad18d7e3b"
+  },
+  "genre": [
+    "Society & Culture",
+    "Documentary"
+  ],
+  "keywords": "onondaga lake, eagles, contamination, environment, peacemaker, thanksgiving address, land rights, doctrine of discovery, treaties, lacrosse, haudenosaunee, sovereignty, oral history, women's rights, matriarchy, great law of peace, water, onondaga nation, law, history, wampum, two row wampum",
+  "about": [
+    {
+      "@type": "LakeBodyOfWater",
+      "@id": "http://www.wikidata.org/entity/Q3825751",
+      "name": "Onondaga Lake",
+      "sameAs": "https://en.wikipedia.org/wiki/Onondaga_Lake"
+    },
+    {
+      "@id": "https://lakeback.org/#project"
+    }
+  ],
+  "contentLocation": {
+    "@id": "http://www.wikidata.org/entity/Q3825751"
+  },
+  "publisher": {
+    "@id": "https://aila.ngo/#organization"
+  },
+  "creator": {
+    "@id": "https://aila.ngo/#organization"
+  },
+  "actor": [
+    {
+      "@type": "Person",
+      "@id": "https://podcast.lakeback.org/bios/betty-lyons-hill/#person",
+      "name": "Betty Lyons Hill",
+      "alternateName": [
+        "Betty Hill (Lyons)",
+        "Betty Lyons"
+      ],
+      "url": "https://podcast.lakeback.org/bios/betty-lyons-hill/"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://podcast.lakeback.org/bios/patricia-nolan-vogt/#person",
+      "name": "Patricia Nolan Vogt",
+      "url": "https://podcast.lakeback.org/bios/patricia-nolan-vogt/"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://podcast.lakeback.org/bios/adam-dj-brett/#person",
+      "name": "Adam DJ Brett",
+      "sameAs": [
+        "https://adamdjbrett.com"
+      ],
+      "url": "https://podcast.lakeback.org/bios/adam-dj-brett/"
+    }
+  ],
+  "producer": [
+    {
+      "@id": "https://podcast.lakeback.org/bios/betty-lyons-hill/#person"
+    },
+    {
+      "@id": "https://podcast.lakeback.org/bios/adam-dj-brett/#person"
+    }
+  ],
+  "editor": [
+    {
+      "@id": "https://podcast.lakeback.org/bios/betty-lyons-hill/#person"
+    },
+    {
+      "@id": "https://podcast.lakeback.org/bios/adam-dj-brett/#person"
+    },
+    {
+      "@type": "Person",
+      "name": "Michael Wais"
+    },
+    {
+      "@type": "Person",
+      "name": "Cole Belmont"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "@id": "https://podcast.lakeback.org/bios/chris-thomas/#person",
+      "name": "Chris Thomas",
+      "url": "https://podcast.lakeback.org/bios/chris-thomas/"
+    }
+  ],
+  "funder": [
+    {
+      "@id": "https://aila.ngo/#organization"
+    }
+  ],
+  "funding": {
+    "@type": "Grant",
+    "name": "Public Scholarship Grant",
+    "funder": {
+      "@type": "Organization",
+      "name": "American Academy of Religion",
+      "url": "https://aarweb.org/"
+    }
+  },
+  "copyrightHolder": {
+    "@id": "https://aila.ngo/#organization"
+  },
+  "copyrightYear": 2026,
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.en",
+  "isAccessibleForFree": true,
+  "accessMode": [
+    "auditory"
+  ],
+  "accessibilityFeature": [
+    "transcript"
+  ],
+  "isBasedOn": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://doi.org/10.62365/2576-0955.1133",
+    "name": "Healing the Sacred: The Fight to Restore Onondaga Lake and Honor Indigenous Land",
+    "url": "https://commons.lib.jmu.edu/ijr/vol9/iss1/2/",
+    "author": [
+      {
+        "@id": "https://podcast.lakeback.org/bios/adam-dj-brett/#person"
+      },
+      {
+        "@id": "https://podcast.lakeback.org/bios/betty-lyons-hill/#person"
+      }
+    ]
+  },
+  "subjectOf": {
+    "@type": "LearningResource",
+    "name": "Healing the Sacred: Restoring Onondaga Lake through Story, Ceremony, and Public Scholarship. Curriculum Guide",
+    "url": "https://podcast.lakeback.org/course/",
+    "author": [
+      {
+        "@id": "https://podcast.lakeback.org/bios/adam-dj-brett/#person"
+      },
+      {
+        "@id": "https://podcast.lakeback.org/bios/betty-lyons-hill/#person"
+      }
+    ],
+    "encoding": {
+      "@type": "MediaObject",
+      "contentUrl": "https://podcast.lakeback.org/assets/curriculum-guide/healing-the-sacred-curriculum-guide.pdf",
+      "encodingFormat": "application/pdf"
+    }
+  },
+  "datePublished": "2026-11-14",
+  "startDate": "2026-11-14",
+  "endDate": "2026-11-14",
+  "hasPart": [
+    {
+      "@type": "PodcastEpisode",
+      "@id": "https://podcast.lakeback.org/episodes/001-eagles-onondaga-lake-pt1/#episode",
+      "url": "https://podcast.lakeback.org/episodes/001-eagles-onondaga-lake-pt1/",
+      "name": "The Eagles Return to Onondaga Lake, Part 1",
+      "episodeNumber": 1,
+      "datePublished": "2026-11-14"
+    },
+    {
+      "@type": "PodcastEpisode",
+      "@id": "https://podcast.lakeback.org/episodes/002-eagles-onondaga-lake-pt2/#episode",
+      "url": "https://podcast.lakeback.org/episodes/002-eagles-onondaga-lake-pt2/",
+      "name": "The Eagles Return to Onondaga Lake, Part 2",
+      "episodeNumber": 2,
+      "datePublished": "2026-11-14"
+    },
+    {
+      "@type": "PodcastEpisode",
+      "@id": "https://podcast.lakeback.org/episodes/003-jake-edwards-land-rights/#episode",
+      "url": "https://podcast.lakeback.org/episodes/003-jake-edwards-land-rights/",
+      "name": "Jake Edwards on Onondaga Lake and the Ganohé:nio",
+      "episodeNumber": 3,
+      "datePublished": "2026-11-14"
+    },
+    {
+      "@type": "PodcastEpisode",
+      "@id": "https://podcast.lakeback.org/episodes/004-rex-lyons-lacrosse-pt1/#episode",
+      "url": "https://podcast.lakeback.org/episodes/004-rex-lyons-lacrosse-pt1/",
+      "name": "Rex Lyons on Lacrosse and the Haudenosaunee Nationals, Part 1",
+      "episodeNumber": 4,
+      "datePublished": "2026-11-14"
+    },
+    {
+      "@type": "PodcastEpisode",
+      "@id": "https://podcast.lakeback.org/episodes/005-rex-lyons-lacrosse-pt2/#episode",
+      "url": "https://podcast.lakeback.org/episodes/005-rex-lyons-lacrosse-pt2/",
+      "name": "Rex Lyons on Lacrosse and the Haudenosaunee Nationals, Part 2",
+      "episodeNumber": 5,
+      "datePublished": "2026-11-14"
+    },
+    {
+      "@type": "PodcastEpisode",
+      "@id": "https://podcast.lakeback.org/episodes/006-tadodaho-peacemaker-lake/#episode",
+      "url": "https://podcast.lakeback.org/episodes/006-tadodaho-peacemaker-lake/",
+      "name": "Tadodaho Sidney Hill on the Peacemaker and Onondaga Lake",
+      "episodeNumber": 6,
+      "datePublished": "2026-11-14"
+    },
+    {
+      "@type": "PodcastEpisode",
+      "@id": "https://podcast.lakeback.org/episodes/007-heath-land-rights-pt1/#episode",
+      "url": "https://podcast.lakeback.org/episodes/007-heath-land-rights-pt1/",
+      "name": "Joseph J. Heath on Onondaga Land Rights and the Lake, Part 1",
+      "episodeNumber": 7,
+      "datePublished": "2026-11-14"
+    },
+    {
+      "@type": "PodcastEpisode",
+      "@id": "https://podcast.lakeback.org/episodes/008-heath-land-rights-pt2/#episode",
+      "url": "https://podcast.lakeback.org/episodes/008-heath-land-rights-pt2/",
+      "name": "Joseph J. Heath on Onondaga Land Rights and the Lake, Part 2",
+      "episodeNumber": 8,
+      "datePublished": "2026-11-14"
+    },
+    {
+      "@type": "PodcastEpisode",
+      "@id": "https://podcast.lakeback.org/episodes/009-richard-hill-two-row/#episode",
+      "url": "https://podcast.lakeback.org/episodes/009-richard-hill-two-row/",
+      "name": "Richard W. Hill Sr. on the Great Law, Wampum, and the Two Row",
+      "episodeNumber": 9,
+      "datePublished": "2026-11-14"
+    },
+    {
+      "@type": "PodcastEpisode",
+      "@id": "https://podcast.lakeback.org/episodes/010-gage-haudenosaunee-pt1/#episode",
+      "url": "https://podcast.lakeback.org/episodes/010-gage-haudenosaunee-pt1/",
+      "name": "Matilda Joslyn Gage and the Haudenosaunee, Part 1",
+      "episodeNumber": 10,
+      "datePublished": "2026-11-14"
+    },
+    {
+      "@type": "PodcastEpisode",
+      "@id": "https://podcast.lakeback.org/episodes/011-gage-haudenosaunee-pt2/#episode",
+      "url": "https://podcast.lakeback.org/episodes/011-gage-haudenosaunee-pt2/",
+      "name": "Matilda Joslyn Gage and the Haudenosaunee, Part 2",
+      "episodeNumber": 11,
+      "datePublished": "2026-11-14"
+    }
+  ]
+}

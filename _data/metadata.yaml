@@ -100,23 +100,6 @@ podcast:
  url: https://podcast.lakeback.org
  buzzsprout_id: "2667694"
  feed: https://feeds.buzzsprout.com/2667694.rss
- # directory listings (from Buzzsprout > Directories); add Amazon Music, Pocket Casts, YouTube once listed
- same_as:
-  - https://podcasts.apple.com/us/podcast/healing-the-sacred/id6838173635
-  - https://open.spotify.com/show/65Tj23KRuMYTJJFxhJkY5n
-  - https://www.iheart.com/podcast/953-healing-the-sacred-350604028/
-  - https://podcastindex.org/podcast/8126159
-  - https://www.listennotes.com/podcasts/healing-the-sacred-american-indian-law-YlGn_XgM3cE/
-  - https://castbox.fm/vic/6838173635
-  - https://overcast.fm/itunes6838173635
-  - https://podcastaddict.com/podcast/healing-the-sacred/7388092
-  - https://www.deezer.com/show/1003785271
-  - https://www.podchaser.com/podcasts/healing-the-sacred-6684909
-  - https://player.fm/series/series-3768423
-  - https://castro.fm/itunes/6838173635
-  - https://www.goodpods.com/podcasts-aid/6838173635
-  - https://truefans.fm/9b5206e1-7ddf-5780-a901-bfaad18d7e3b
-  - https://www.youtube.com/playlist?list=PLE98CAQgldhg
 
 organization:
  name: "American Indian Law Alliance"

@@ -23,17 +23,9 @@
     "about": { "@id": {{ projectId | dump | safe }} },
     "publisher": { "@id": {{ orgId | dump | safe }} }
   },
-  {
-    "@type": "PodcastSeries",
-    "@id": {{ (metadata.podcast.url ~ "/#podcast") | dump | safe }},
-    "name": {{ metadata.podcast.title | dump | safe }},
-    "description": {{ metadata.podcast.subtitle | dump | safe }},
-    "url": {{ metadata.podcast.url | dump | safe }},
-    "webFeed": {{ metadata.podcast.feed | dump | safe }},
-    "sameAs": {{ metadata.podcast.same_as | dump | safe }},
-    "inLanguage": {{ metadata.language | dump | safe }},
-    "about": { "@id": {{ projectId | dump | safe }} },
-    "publisher": { "@id": {{ orgId | dump | safe }} }
-  }
+  {#- PodcastSeries node: verbatim copy of podcast.lakeback.org's built node; never hand-edit _data/podcastSeries.json.
+      Regenerate from the podcast.lakeback.org repo after `npm run build` (production URLs, never a dev build):
+      node -e 'const fs=require("fs");const h=fs.readFileSync("dist/index.html","utf8");const g=JSON.parse(h.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])["@graph"];fs.writeFileSync("../lakeback.org/_data/podcastSeries.json",JSON.stringify(g.find(n=>n["@type"]==="PodcastSeries"),null,2)+"\n")' #}
+  {{ podcastSeries | dump | safe }}
   ]
 }
