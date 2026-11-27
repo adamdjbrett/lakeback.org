@@ -70,6 +70,7 @@
 <link rel="describedby" type="application/ld+json" profile="https://schema.org/" href="/metadata.json">
 {% endif %}
 {# lakeback.org is a project and program of AILA: AILA's profiles are this site's identities #}
+<link rel="me" href="{{ metadata.organization.url }}">
 {% for u in metadata.organization.same_as %}<link rel="me" href="{{ u }}">
 {% endfor %}<link rel="me" href="mailto:{{ metadata.organization.email }}">
 <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">

@@ -102,22 +102,33 @@ podcast:
  feed: https://feeds.buzzsprout.com/2667694.rss
 
 organization:
+ # AILA, shared @id with aila.ngo, aila.social and podcast.lakeback.org: keep it identical to aila.ngo's
  name: "American Indian Law Alliance"
  alternate_name: "AILA"
  url: https://aila.ngo/
- logo: /img/aila-logo.webp
+ logo: https://aila.ngo/icon-512x512.png
  email: "aila@aila.ngo"
- description: "American Indian Law Alliance (AILA) is a non-profit organization that works with Indigenous Nations and peoples in the Americas to protect their sovereignty, human rights, and Mother Earth."
+ description: "An NGO in consultative status with the United Nations Economic & Social Council (ECOSOC)"
+ address:
+  "@type": "PostalAddress"
+  "postOfficeBoxNumber": "336"
+  "addressLocality": "DeWitt"
+  "addressRegion": "NY"
+  "postalCode": "13214-9211"
+  "addressCountry": "US"
  same_as:
-  - https://aila.ngo/
   - https://aila.social/
   - https://lakeback.org/
   - https://podcast.lakeback.org/
-  - https://bsky.app/profile/aila.social
+  - https://www.youtube.com/playlist?list=PLE98CAQgldhg
+  - https://doctrineofdiscovery.org/
+  - https://podcast.doctrineofdiscovery.org/
+  - https://www.sullivanclinton.com/
+  - https://www.instagram.com/americanindianlawalliance
   - https://www.facebook.com/americanindianlawalliance
+  - https://bsky.app/profile/aila.social
+  - https://www.linkedin.com/company/american-indian-law-alliance
   - https://x.com/ailanyc
-  - https://www.instagram.com/americanindianlawalliance/
-  - https://www.linkedin.com/company/american-indian-law-alliance/
   - https://www.youtube.com/@aila-ngo
 
 copyrights: 

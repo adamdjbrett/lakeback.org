@@ -181,9 +181,9 @@
       "encodingFormat": "application/pdf"
     }
   },
-  "datePublished": "2026-11-14",
-  "startDate": "2026-11-14",
-  "endDate": "2026-11-14",
+  "datePublished": "2026-11-22",
+  "startDate": "2026-11-22",
+  "endDate": "2026-11-22",
   "hasPart": [
     {
       "@type": "PodcastEpisode",
@@ -191,7 +191,7 @@
       "url": "https://podcast.lakeback.org/episodes/001-eagles-onondaga-lake-pt1/",
       "name": "The Eagles Return to Onondaga Lake, Part 1",
       "episodeNumber": 1,
-      "datePublished": "2026-11-14"
+      "datePublished": "2026-11-22"
     },
     {
       "@type": "PodcastEpisode",
@@ -199,7 +199,7 @@
       "url": "https://podcast.lakeback.org/episodes/002-eagles-onondaga-lake-pt2/",
       "name": "The Eagles Return to Onondaga Lake, Part 2",
       "episodeNumber": 2,
-      "datePublished": "2026-11-14"
+      "datePublished": "2026-11-22"
     },
     {
       "@type": "PodcastEpisode",
@@ -207,7 +207,7 @@
       "url": "https://podcast.lakeback.org/episodes/003-jake-edwards-land-rights/",
       "name": "Jake Edwards on Onondaga Lake and the Ganohé:nio",
       "episodeNumber": 3,
-      "datePublished": "2026-11-14"
+      "datePublished": "2026-11-22"
     },
     {
       "@type": "PodcastEpisode",
@@ -215,7 +215,7 @@
       "url": "https://podcast.lakeback.org/episodes/004-rex-lyons-lacrosse-pt1/",
       "name": "Rex Lyons on Lacrosse and the Haudenosaunee Nationals, Part 1",
       "episodeNumber": 4,
-      "datePublished": "2026-11-14"
+      "datePublished": "2026-11-22"
     },
     {
       "@type": "PodcastEpisode",
@@ -223,7 +223,7 @@
       "url": "https://podcast.lakeback.org/episodes/005-rex-lyons-lacrosse-pt2/",
       "name": "Rex Lyons on Lacrosse and the Haudenosaunee Nationals, Part 2",
       "episodeNumber": 5,
-      "datePublished": "2026-11-14"
+      "datePublished": "2026-11-22"
     },
     {
       "@type": "PodcastEpisode",
@@ -231,7 +231,7 @@
       "url": "https://podcast.lakeback.org/episodes/006-tadodaho-peacemaker-lake/",
       "name": "Tadodaho Sidney Hill on the Peacemaker and Onondaga Lake",
       "episodeNumber": 6,
-      "datePublished": "2026-11-14"
+      "datePublished": "2026-11-22"
     },
     {
       "@type": "PodcastEpisode",
@@ -239,7 +239,7 @@
       "url": "https://podcast.lakeback.org/episodes/007-heath-land-rights-pt1/",
       "name": "Joseph J. Heath on Onondaga Land Rights and the Lake, Part 1",
       "episodeNumber": 7,
-      "datePublished": "2026-11-14"
+      "datePublished": "2026-11-22"
     },
     {
       "@type": "PodcastEpisode",
@@ -247,15 +247,15 @@
       "url": "https://podcast.lakeback.org/episodes/008-heath-land-rights-pt2/",
       "name": "Joseph J. Heath on Onondaga Land Rights and the Lake, Part 2",
       "episodeNumber": 8,
-      "datePublished": "2026-11-14"
+      "datePublished": "2026-11-22"
     },
     {
       "@type": "PodcastEpisode",
       "@id": "https://podcast.lakeback.org/episodes/009-richard-hill-two-row/#episode",
       "url": "https://podcast.lakeback.org/episodes/009-richard-hill-two-row/",
-      "name": "Richard W. Hill Sr. on the Great Law, Wampum, and the Two Row",
+      "name": "Richard W. Hill, Sr. on the Great Law, Wampum, and the Two Row Wampum Treaty",
       "episodeNumber": 9,
-      "datePublished": "2026-11-14"
+      "datePublished": "2026-11-22"
     },
     {
       "@type": "PodcastEpisode",
@@ -263,7 +263,7 @@
       "url": "https://podcast.lakeback.org/episodes/010-gage-haudenosaunee-pt1/",
       "name": "Matilda Joslyn Gage and the Haudenosaunee, Part 1",
       "episodeNumber": 10,
-      "datePublished": "2026-11-14"
+      "datePublished": "2026-11-22"
     },
     {
       "@type": "PodcastEpisode",
@@ -271,7 +271,7 @@
       "url": "https://podcast.lakeback.org/episodes/011-gage-haudenosaunee-pt2/",
       "name": "Matilda Joslyn Gage and the Haudenosaunee, Part 2",
       "episodeNumber": 11,
-      "datePublished": "2026-11-14"
+      "datePublished": "2026-11-22"
     }
   ]
 }

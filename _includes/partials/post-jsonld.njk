@@ -11,11 +11,7 @@
   "datePublished": {{ post_jsonld_date_published | dump | safe }},
   "dateModified": {{ post_jsonld_date_modified | dump | safe }},
   "image": {{ post_jsonld_image | dump | safe }},
-  "author": {
-    "@type": "Person",
-    "name": {{ metadata.author.name | dump | safe }},
-    "url": {{ metadata.author.url | dump | safe }}
-  },
+  "author": {{ (post_jsonld_authors if post_jsonld_authors.length else [{"@id": metadata.organization.url ~ "#organization"}]) | dump | safe }},
   "publisher": {% include "partials/organization-jsonld.njk" %},
   "isPartOf": {
     "@type": "Blog",

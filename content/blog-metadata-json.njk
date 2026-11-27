@@ -18,4 +18,7 @@ eleventyExcludeFromCollections: true
 {% set post_jsonld_date_modified = (postData.updated or postData.date or post.date) | htmlDateString %}
 {% set post_jsonld_language = postData.language or metadata.language %}
 {% set post_jsonld_citations = postData.citations %}
+{# authors.yaml `jsonld` nodes for the post's `authors` keys, in the post's order #}
+{% set post_jsonld_authors = [] %}
+{% for key in postData.authors or [] %}{% for a in authors %}{% if a.key == key and a.jsonld %}{% set post_jsonld_authors = (post_jsonld_authors.push(a.jsonld), post_jsonld_authors) %}{% endif %}{% endfor %}{% endfor %}
 {% include "partials/post-jsonld.njk" %}

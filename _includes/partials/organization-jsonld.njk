@@ -5,8 +5,9 @@
     "name": {{ org.name | dump | safe }},
     "alternateName": {{ org.alternate_name | dump | safe }},
     "url": {{ org.url | dump | safe }},
-    "logo": {{ (metadata.url ~ org.logo) | dump | safe }},
+    "logo": {{ org.logo | dump | safe }},
     "email": {{ org.email | dump | safe }},
     "description": {{ org.description | dump | safe }},
+    "address": {{ org.address | dump | safe }},
     "sameAs": {{ org.same_as | dump | safe }}
   }
